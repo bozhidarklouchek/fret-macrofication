@@ -1,0 +1,1 @@
+((G (((! ((param_V > paramMax_V) | (param_V < paramMin_V))) & (X ((param_V > paramMax_V) | (param_V < paramMin_V)))) -> (X (F paramAlarm_V)))) & (((param_V > paramMax_V) | (param_V < paramMin_V)) -> (F paramAlarm_V)))
