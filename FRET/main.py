@@ -9,6 +9,30 @@ class RequirementAstBuilder:
   def buildPost_condition(self, node):
     return self.build(node.a)
   
+  def buildY(self, node):
+    return ['Y', self.build(node.a)]
+  
+  def buildH(self, node):
+    return ['H', self.build(node.a)]
+
+  def buildO(self, node):
+    return ['O', self.build(node.a)]
+  
+  def buildG(self, node):
+    return ['G', self.build(node.a)]
+  
+  def buildU(self, node):
+    return ['U', self.build(node.a)]
+  
+  def buildX(self, node):
+    return ['X', self.build(node.a)]
+  
+  def buildV(self, node):
+    return ['V', self.build(node.a), self.build(node.b)]
+
+  def buildF(self, node):
+    return ['F', self.build(node.a)]
+  
   def buildNegate(self, node):
     return [node.op.text, self.build(node.a)]
 
@@ -69,17 +93,25 @@ def parseFile(path):
     asts = []
     counter = 1
     with open(path, 'r') as file:
+        problemsOccurred = False
         for reqt in file:
-            lexer = RequirementLexer(InputStream(reqt))
-            stream = CommonTokenStream(lexer)
-            parser = RequirementParser(stream)
-            cst = parser.post_condition()
-            ast = RequirementAstBuilder().build(cst)
-            print(ast)
+            ast = None
+            try:
+              lexer = RequirementLexer(InputStream(reqt))
+              stream = CommonTokenStream(lexer)
+              parser = RequirementParser(stream)
+              cst = parser.post_condition()
+              ast = RequirementAstBuilder().build(cst)
+            except:
+              problemsOccurred = True
+              print(counter, ' is broken!')
             asts.append({'id': counter, 'ast': ast})
             counter += 1
 
-    with open('data.json', 'w', encoding='utf-8') as f:
+    if(not problemsOccurred):
+        print('Successful serialisation!')
+
+    with open('output.json', 'w', encoding='utf-8') as f:
         json.dump(asts, f, ensure_ascii=False, indent=4)
 
 

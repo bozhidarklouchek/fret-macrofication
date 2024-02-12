@@ -189,10 +189,12 @@ timeunit : TICK | MICROSECOND | MILLISECOND | SECOND | MINUTE | HOUR ;
 //         :       'if' bool_expr 'then'
 //         ;
 
-post_condition : a=bool_expr ;
+post_condition : a=bool_expr ;                                                            
 
 bool_expr :  op=('!' | '~') a=bool_expr                                                     #Negate 
           | a=bool_expr '&' b=bool_expr                                                     #And
+          | a=bool_expr 'V' b=bool_expr                                                     #V
+          | a=bool_expr 'U' b=bool_expr                                                     #U
           | a=bool_expr op=('|'|XOR) b=bool_expr                                               #Or
 // | <assoc=right> bool_expr '=>' bool_expr
           | a=bool_expr op=('->' | '=>'| '<->' | '<=>') b=bool_expr                            #Arrow
@@ -204,23 +206,22 @@ bool_expr :  op=('!' | '~') a=bool_expr                                         
           |  ID ('(' ( (a=bool_expr | b=numeric_expr) (',' (c=bool_expr | d=numeric_expr))*)? ')')? #Long
           | 'true'                                                                      #TrivialTrue
           | 'false'                                                                     #TrivialFalse
-// 	  | (FOR | WITHIN) (THE LAST)? duration bool_expr                               #a
-//	  | tl_expr                                                                     #b
+// 	  | (FOR | WITHIN) (THE LAST)? duration bool_expr                               
+	  | a=tl_expr                                                                     #TrivialTimeExpr
           ;
 
- tl_expr :
- 	'Y' bool_expr
- 	| 'H' tl_intvl bool_expr
- 	| 'O' tl_intvl bool_expr
- 	| 'G' tl_intvl bool_expr
- 	| 'X' tl_intvl bool_expr
- 	| 'F' tl_intvl? bool_expr
- 	| bool_expr 'S' tl_intvl bool_expr
+ tl_expr : 'Y' a=bool_expr                        # Y          
+ 	| 'H' a=bool_expr                # H
+ 	| 'O' a=bool_expr                # O
+ 	| 'G'tl_intvl? a=bool_expr             # G
+//        | 'U' a=bool_expr               # U
+        | 'X' a=bool_expr               # X
+ 	| 'F'tl_intvl? a=bool_expr               # F
+// 	| bool_expr 'S' tl_intvl bool_expr
  	;
 
- tl_intvl :
- 	| '[' duration ']'
- 	| '[' duration ',' duration ']'
+ tl_intvl : ('['NUMBER']')
+ 	| ('['NUMBER','NUMBER']')
  	;
 
 numeric_expr :

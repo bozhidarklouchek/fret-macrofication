@@ -251,15 +251,6 @@ class RequirementListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by RequirementParser#AtPrevNext.
-    def enterAtPrevNext(self, ctx:RequirementParser.AtPrevNextContext):
-        pass
-
-    # Exit a parse tree produced by RequirementParser#AtPrevNext.
-    def exitAtPrevNext(self, ctx:RequirementParser.AtPrevNextContext):
-        pass
-
-
     # Enter a parse tree produced by RequirementParser#Arrow.
     def enterArrow(self, ctx:RequirementParser.ArrowContext):
         pass
@@ -278,48 +269,12 @@ class RequirementListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by RequirementParser#Relation.
-    def enterRelation(self, ctx:RequirementParser.RelationContext):
-        pass
-
-    # Exit a parse tree produced by RequirementParser#Relation.
-    def exitRelation(self, ctx:RequirementParser.RelationContext):
-        pass
-
-
     # Enter a parse tree produced by RequirementParser#Or.
     def enterOr(self, ctx:RequirementParser.OrContext):
         pass
 
     # Exit a parse tree produced by RequirementParser#Or.
     def exitOr(self, ctx:RequirementParser.OrContext):
-        pass
-
-
-    # Enter a parse tree produced by RequirementParser#And.
-    def enterAnd(self, ctx:RequirementParser.AndContext):
-        pass
-
-    # Exit a parse tree produced by RequirementParser#And.
-    def exitAnd(self, ctx:RequirementParser.AndContext):
-        pass
-
-
-    # Enter a parse tree produced by RequirementParser#Long.
-    def enterLong(self, ctx:RequirementParser.LongContext):
-        pass
-
-    # Exit a parse tree produced by RequirementParser#Long.
-    def exitLong(self, ctx:RequirementParser.LongContext):
-        pass
-
-
-    # Enter a parse tree produced by RequirementParser#Negate.
-    def enterNegate(self, ctx:RequirementParser.NegateContext):
-        pass
-
-    # Exit a parse tree produced by RequirementParser#Negate.
-    def exitNegate(self, ctx:RequirementParser.NegateContext):
         pass
 
 
@@ -341,12 +296,147 @@ class RequirementListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by RequirementParser#TrivialTimeExpr.
+    def enterTrivialTimeExpr(self, ctx:RequirementParser.TrivialTimeExprContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#TrivialTimeExpr.
+    def exitTrivialTimeExpr(self, ctx:RequirementParser.TrivialTimeExprContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#AtPrevNext.
+    def enterAtPrevNext(self, ctx:RequirementParser.AtPrevNextContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#AtPrevNext.
+    def exitAtPrevNext(self, ctx:RequirementParser.AtPrevNextContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#Relation.
+    def enterRelation(self, ctx:RequirementParser.RelationContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#Relation.
+    def exitRelation(self, ctx:RequirementParser.RelationContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#U.
+    def enterU(self, ctx:RequirementParser.UContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#U.
+    def exitU(self, ctx:RequirementParser.UContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#And.
+    def enterAnd(self, ctx:RequirementParser.AndContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#And.
+    def exitAnd(self, ctx:RequirementParser.AndContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#V.
+    def enterV(self, ctx:RequirementParser.VContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#V.
+    def exitV(self, ctx:RequirementParser.VContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#Long.
+    def enterLong(self, ctx:RequirementParser.LongContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#Long.
+    def exitLong(self, ctx:RequirementParser.LongContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#Negate.
+    def enterNegate(self, ctx:RequirementParser.NegateContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#Negate.
+    def exitNegate(self, ctx:RequirementParser.NegateContext):
+        pass
+
+
     # Enter a parse tree produced by RequirementParser#TrivialTrue.
     def enterTrivialTrue(self, ctx:RequirementParser.TrivialTrueContext):
         pass
 
     # Exit a parse tree produced by RequirementParser#TrivialTrue.
     def exitTrivialTrue(self, ctx:RequirementParser.TrivialTrueContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#Y.
+    def enterY(self, ctx:RequirementParser.YContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#Y.
+    def exitY(self, ctx:RequirementParser.YContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#H.
+    def enterH(self, ctx:RequirementParser.HContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#H.
+    def exitH(self, ctx:RequirementParser.HContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#O.
+    def enterO(self, ctx:RequirementParser.OContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#O.
+    def exitO(self, ctx:RequirementParser.OContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#G.
+    def enterG(self, ctx:RequirementParser.GContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#G.
+    def exitG(self, ctx:RequirementParser.GContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#X.
+    def enterX(self, ctx:RequirementParser.XContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#X.
+    def exitX(self, ctx:RequirementParser.XContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#F.
+    def enterF(self, ctx:RequirementParser.FContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#F.
+    def exitF(self, ctx:RequirementParser.FContext):
+        pass
+
+
+    # Enter a parse tree produced by RequirementParser#tl_intvl.
+    def enterTl_intvl(self, ctx:RequirementParser.Tl_intvlContext):
+        pass
+
+    # Exit a parse tree produced by RequirementParser#tl_intvl.
+    def exitTl_intvl(self, ctx:RequirementParser.Tl_intvlContext):
         pass
 
 
