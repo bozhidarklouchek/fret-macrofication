@@ -1,9 +1,11 @@
 from antlr4 import *
 from antlr4.tree.Trees import Trees
-from RequirementLexer import RequirementLexer
-from RequirementParser import RequirementParser
 from collections import namedtuple
 import sys, json
+sys.path.append('C:/Users/klouc/Desktop/fret-macrofication/FRET')
+from RequirementLexer import RequirementLexer
+from RequirementParser import RequirementParser
+
 
 class RequirementAstBuilder:
   def buildPost_condition(self, node):
@@ -19,10 +21,12 @@ class RequirementAstBuilder:
     return ['O', self.build(node.a)]
   
   def buildG(self, node):
-    return ['G', self.build(node.a)]
+    if(not node.t):
+      return ['G', self.build(node.a)]
+    return ['G', self.build(node.t), self.build(node.a)]
   
   def buildU(self, node):
-    return ['U', self.build(node.a)]
+    return ['U', self.build(node.a), self.build(node.b)]
   
   def buildX(self, node):
     return ['X', self.build(node.a)]
@@ -31,7 +35,12 @@ class RequirementAstBuilder:
     return ['V', self.build(node.a), self.build(node.b)]
 
   def buildF(self, node):
-    return ['F', self.build(node.a)]
+    if(not node.t):
+      return ['F', self.build(node.a)]
+    return ['F', self.build(node.t), self.build(node.a)]
+  
+  def buildTl_intvl(self, node):
+    return node.getText()
   
   def buildNegate(self, node):
     return [node.op.text, self.build(node.a)]
@@ -102,16 +111,16 @@ def parseFile(path):
               parser = RequirementParser(stream)
               cst = parser.post_condition()
               ast = RequirementAstBuilder().build(cst)
-            except:
+            except Exception:
               problemsOccurred = True
               print(counter, ' is broken!')
-            asts.append({'id': counter, 'ast': ast})
+            asts.append({'id': counter, 'fret': reqt.replace('\n', ''), 'ast': ast})
             counter += 1
 
     if(not problemsOccurred):
         print('Successful serialisation!')
 
-    with open('output.json', 'w', encoding='utf-8') as f:
+    with open('C:/Users/klouc/Desktop/fret-macrofication/FRET/src/FRET2JSON/serialised_fret.json', 'w', encoding='utf-8') as f:
         json.dump(asts, f, ensure_ascii=False, indent=4)
 
 

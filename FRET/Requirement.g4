@@ -204,8 +204,8 @@ bool_expr :  op=('!' | '~') a=bool_expr                                         
           | '(' a=bool_expr ')'                                                           #TrivialParan
           | a=numeric_expr op=RELATIONAL_OP b=numeric_expr                                     #Relation
           |  ID ('(' ( (a=bool_expr | b=numeric_expr) (',' (c=bool_expr | d=numeric_expr))*)? ')')? #Long
-          | 'true'                                                                      #TrivialTrue
-          | 'false'                                                                     #TrivialFalse
+          | a='true'                                                                      #TrivialTrue
+          | a='false'                                                                     #TrivialFalse
 // 	  | (FOR | WITHIN) (THE LAST)? duration bool_expr                               
 	  | a=tl_expr                                                                     #TrivialTimeExpr
           ;
@@ -213,10 +213,10 @@ bool_expr :  op=('!' | '~') a=bool_expr                                         
  tl_expr : 'Y' a=bool_expr                        # Y          
  	| 'H' a=bool_expr                # H
  	| 'O' a=bool_expr                # O
- 	| 'G'tl_intvl? a=bool_expr             # G
+ 	| 'G' t=tl_intvl? a=bool_expr             # G
 //        | 'U' a=bool_expr               # U
         | 'X' a=bool_expr               # X
- 	| 'F'tl_intvl? a=bool_expr               # F
+ 	| 'F' t=tl_intvl? a=bool_expr               # F
 // 	| bool_expr 'S' tl_intvl bool_expr
  	;
 
@@ -232,7 +232,7 @@ numeric_expr :
              | a=numeric_expr op=('+' | '-') b=numeric_expr                                            #AddSub
              | NUMBER                                                                           #BasicNumber
              | ID ( '(' ( (bool_expr | numeric_expr) (',' (bool_expr | numeric_expr))*)? ')')?  #Long2
-             | '(' numeric_expr ')'                                                             #TrivialParan2
+             | '(' a=numeric_expr ')'                                                             #TrivialParan2
              ;
 
 AFTER : A F T E R;

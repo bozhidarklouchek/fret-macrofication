@@ -2294,6 +2294,7 @@ class RequirementParser ( Parser ):
 
         def __init__(self, parser, ctx:ParserRuleContext): # actually a RequirementParser.Bool_exprContext
             super().__init__(parser)
+            self.a = None # Token
             self.copyFrom(ctx)
 
 
@@ -2521,6 +2522,7 @@ class RequirementParser ( Parser ):
 
         def __init__(self, parser, ctx:ParserRuleContext): # actually a RequirementParser.Bool_exprContext
             super().__init__(parser)
+            self.a = None # Token
             self.copyFrom(ctx)
 
 
@@ -2697,7 +2699,7 @@ class RequirementParser ( Parser ):
                 self._ctx = localctx
                 _prevctx = localctx
                 self.state = 300
-                self.match(RequirementParser.T__16)
+                localctx.a = self.match(RequirementParser.T__16)
                 pass
 
             elif la_ == 8:
@@ -2705,7 +2707,7 @@ class RequirementParser ( Parser ):
                 self._ctx = localctx
                 _prevctx = localctx
                 self.state = 301
-                self.match(RequirementParser.T__17)
+                localctx.a = self.match(RequirementParser.T__17)
                 pass
 
             elif la_ == 9:
@@ -2846,6 +2848,7 @@ class RequirementParser ( Parser ):
 
         def __init__(self, parser, ctx:ParserRuleContext): # actually a RequirementParser.Tl_exprContext
             super().__init__(parser)
+            self.t = None # Tl_intvlContext
             self.a = None # Bool_exprContext
             self.copyFrom(ctx)
 
@@ -2869,6 +2872,7 @@ class RequirementParser ( Parser ):
 
         def __init__(self, parser, ctx:ParserRuleContext): # actually a RequirementParser.Tl_exprContext
             super().__init__(parser)
+            self.t = None # Tl_intvlContext
             self.a = None # Bool_exprContext
             self.copyFrom(ctx)
 
@@ -3012,7 +3016,7 @@ class RequirementParser ( Parser ):
                 _la = self._input.LA(1)
                 if _la==25:
                     self.state = 332
-                    self.tl_intvl()
+                    localctx.t = self.tl_intvl()
 
 
                 self.state = 335
@@ -3036,7 +3040,7 @@ class RequirementParser ( Parser ):
                 _la = self._input.LA(1)
                 if _la==25:
                     self.state = 339
-                    self.tl_intvl()
+                    localctx.t = self.tl_intvl()
 
 
                 self.state = 342
@@ -3225,6 +3229,7 @@ class RequirementParser ( Parser ):
 
         def __init__(self, parser, ctx:ParserRuleContext): # actually a RequirementParser.Numeric_exprContext
             super().__init__(parser)
+            self.a = None # Numeric_exprContext
             self.copyFrom(ctx)
 
         def numeric_expr(self):
@@ -3401,7 +3406,7 @@ class RequirementParser ( Parser ):
                 self.state = 380
                 self.match(RequirementParser.T__14)
                 self.state = 381
-                self.numeric_expr(0)
+                localctx.a = self.numeric_expr(0)
                 self.state = 382
                 self.match(RequirementParser.T__15)
                 pass
