@@ -2,7 +2,7 @@ from antlr4 import *
 from antlr4.tree.Trees import Trees
 from collections import namedtuple
 import sys, json
-sys.path.append('C:/Users/klouc/Desktop/fret-macrofication/FRET/grammar')
+sys.path.append('../grammar')
 from RequirementLexer import RequirementLexer
 from RequirementParser import RequirementParser
 
@@ -124,10 +124,3 @@ def fret2json(id, fret):
       print(id, ' FRET reqt is broken!')
       return None
     return serialised
-
-# if __name__ == "__main__":
-#   path = sys.argv[1]
-#   serialisedJsons = fret2json(path)
-
-#   with open('C:/Users/klouc/Desktop/fret-macrofication/FRET/output/result.json', 'w', encoding='utf-8') as f:
-#     json.dump(serialisedJsons, f, ensure_ascii=False, indent=4)
