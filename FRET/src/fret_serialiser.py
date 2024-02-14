@@ -2,7 +2,7 @@ from antlr4 import *
 from antlr4.tree.Trees import Trees
 from collections import namedtuple
 import sys, json
-sys.path.append('C:/Users/klouc/Desktop/fret-macrofication/FRET')
+sys.path.append('C:/Users/klouc/Desktop/fret-macrofication/FRET/grammar')
 from RequirementLexer import RequirementLexer
 from RequirementParser import RequirementParser
 
@@ -98,32 +98,36 @@ class RequirementAstBuilder:
       return self.build(node.a)
     return self.__getattribute__(name)(node)
 
-def parseFile(path):
-    asts = []
-    counter = 1
-    with open(path, 'r') as file:
-        problemsOccurred = False
-        for reqt in file:
-            ast = None
-            try:
-              lexer = RequirementLexer(InputStream(reqt))
-              stream = CommonTokenStream(lexer)
-              parser = RequirementParser(stream)
-              cst = parser.post_condition()
-              ast = RequirementAstBuilder().build(cst)
-            except Exception:
-              problemsOccurred = True
-              print(counter, ' is broken!')
-            asts.append({'id': counter, 'fret': reqt.replace('\n', ''), 'ast': ast})
-            counter += 1
+def addSerilisationToReqts(reqts, readFormulasCount):
+  print('Serialising...')
+  for reqt in reqts:
+    reqt['serialisation'] = fret2json(reqt['reqid'], reqt['fret'])
+  
+  serialisedFormulasCount = len([reqt['serialisation'] for reqt in reqts if reqt['serialisation'] != None])
+  
+  print('I attempted to serialise', readFormulasCount, 'and serialised',
+        serialisedFormulasCount, 'formulas.', end=' ')
+  return reqts, serialisedFormulasCount
 
-    if(not problemsOccurred):
-        print('Successful serialisation!')
+def fret2json(id, fret):
+    if(not fret):
+      return None
+  
+    serialised = None
+    try:
+      lexer = RequirementLexer(InputStream(fret))
+      stream = CommonTokenStream(lexer)
+      parser = RequirementParser(stream)
+      cst = parser.post_condition()
+      serialised = RequirementAstBuilder().build(cst)
+    except Exception:
+      print(id, ' FRET reqt is broken!')
+      return None
+    return serialised
 
-    with open('C:/Users/klouc/Desktop/fret-macrofication/FRET/src/FRET2JSON/serialised_fret.json', 'w', encoding='utf-8') as f:
-        json.dump(asts, f, ensure_ascii=False, indent=4)
+# if __name__ == "__main__":
+#   path = sys.argv[1]
+#   serialisedJsons = fret2json(path)
 
-
-if __name__ == "__main__":
-  path = sys.argv[1]
-  parseFile(path)
+#   with open('C:/Users/klouc/Desktop/fret-macrofication/FRET/output/result.json', 'w', encoding='utf-8') as f:
+#     json.dump(serialisedJsons, f, ensure_ascii=False, indent=4)

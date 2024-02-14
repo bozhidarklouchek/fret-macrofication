@@ -1,36 +1,49 @@
-import json
+import json, sys
+from fret_serialiser import fret2json
 
-def breakDown(expr):
+def json2fret(expr):
     if(type(expr) == list):
         if(len(expr) == 2):
-            # if(expr[0] == '!'):
-            #     return f'{breakDown(expr[0])}({breakDown(expr[1])})'
-            return f'({breakDown(expr[0])} {breakDown(expr[1])})'
+            if(type(json2fret(expr[1])) == str):
+                return f'({json2fret(expr[0])} {json2fret(expr[1])})'
+            else:
+                return f'({json2fret(expr[0])} ({json2fret(expr[1])}))'
         elif(len(expr) == 3):
             if(expr[0] == 'G' or expr[0] == 'F'):
-                return f'({breakDown(expr[0])} {breakDown(expr[1])} {breakDown(expr[2])})'
-            return f'({breakDown(expr[1])} {breakDown(expr[0])} {breakDown(expr[2])})'
+                if(type(json2fret(expr[2])) == str):
+                    return f'({json2fret(expr[0])} {json2fret(expr[1])} {json2fret(expr[2])})'
+                else:
+                    return f'({json2fret(expr[0])} {json2fret(expr[1])} ({json2fret(expr[2])}))'
+            else:
+                if(type(json2fret(expr[1])) == str and type(json2fret(expr[2])) == str):
+                    return f'({json2fret(expr[1])} {json2fret(expr[0])} {json2fret(expr[2])})'
+                elif(type(json2fret(expr[1])) == str):
+                    return f'({json2fret(expr[1])} {json2fret(expr[0])} ({json2fret(expr[2])}))'
+                elif(type(json2fret(expr[2])) == str):
+                    return f'(({json2fret(expr[1])}) {json2fret(expr[0])} {json2fret(expr[2])})'
+                else:
+                    return f'(({json2fret(expr[1])}) {json2fret(expr[0])} ({json2fret(expr[2])}))'
     elif(type(expr) == str):
         return expr
 
-def serialisedJSON2FRET(json_data):
-    problemsOccurred = False
-    for reqt in json_data:
-        currReqt = reqt['ast']
-        evaluated = (breakDown(currReqt))
-        truth = reqt['fret']
+def verify_serilisations(reqts, serialisedFormulasCount):
+    print('Verifying serilisations...')
+    for reqt in reqts:
+        evalFret = json2fret(reqt['serialisation'])
+        reqt['evaluatedFret'] = evalFret
+        reqt['evaluatedSerialisation'] = fret2json(reqt['reqid'], evalFret)
 
-        if(evaluated != truth):
-            problemsOccurred = True
-            print('Problems with ', reqt['id'])
-            print(evaluated)
-            print(truth)
-            break
-    if(not problemsOccurred):
-        print('All translations verified!')
+    successfulSerilisations = 0
+    for reqt in reqts:
+        if(reqt['serialisation'] == reqt['evaluatedSerialisation'] and reqt['serialisation'] != None):
+             successfulSerilisations += 1
+        elif(reqt['serialisation'] != reqt['evaluatedSerialisation']):
+            print('Problems with the serialisation of', reqt['reqid'])
+
+    print(f'Verified {successfulSerilisations}/{serialisedFormulasCount}.', end=' ')
+    if(successfulSerilisations == serialisedFormulasCount):
+        print('Hooray :)')
     
-
-with open('C:/Users/klouc/Desktop/fret-macrofication/FRET/src/FRET2JSON/serialised_fret.json', 'r') as file:
-    # Load JSON data from the file
-    data = json.load(file)
-    serialisedJSON2FRET(data)
+# with open(sys.argv[1], 'r', encoding='utf-8') as file:
+#     data = json.load(file)
+#     verify(data)
