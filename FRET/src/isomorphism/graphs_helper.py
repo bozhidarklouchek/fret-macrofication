@@ -192,7 +192,7 @@ def get_graph_data(serils):
     # Construct graph and extract subgraphs for each seril
     for seril in tqdm(serils):
         if(seril is not None):
-            g = seril_to_graph(seril, draw=True)
+            g = seril_to_graph(seril)
             graphs.append(g)
             add_subgraphs(seril, SUBGRAPHS)
     return graphs, SUBGRAPHS
