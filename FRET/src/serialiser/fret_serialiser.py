@@ -2,7 +2,7 @@ from antlr4 import *
 from antlr4.tree.Trees import Trees
 from collections import namedtuple
 import sys, json
-sys.path.append('../grammar')
+sys.path.append('../../grammar')
 from RequirementLexer import RequirementLexer
 from RequirementParser import RequirementParser
 
