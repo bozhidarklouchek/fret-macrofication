@@ -16,13 +16,11 @@ def add_subgraphs(seril, SUBGRAPHS):
     sub_serils = [seril]
     while(len(sub_serils) != 0):
         
-        # Get current seril and delete if leaf
+        # Get current seril
         curr_seril = sub_serils[0]
-        if(type(curr_seril) is str):
-            del sub_serils[0]
-            continue
-        # Else, add children
-        else:
+
+        # If not leaf vertex, add children
+        if(not type(curr_seril) is str):
             sub_serils.extend(curr_seril[1:])
             
         # Create current subgraph
@@ -86,13 +84,6 @@ def build_tree(g, vprop_label, vcolor, eprop_label, seril):
         
     return parent
 
-def get_depth(parent):
-    children = [child for child in parent.out_neighbors()]
-    depths = [get_depth(child) for child in children]
-    if(len(depths) != 0):
-        return max(depths) + 1
-    return 1
-
 def apply_coords(parent, tree_depth, coords, x, y):
     y = y + 1
     children = [child for child in parent.out_neighbors()]
@@ -106,6 +97,7 @@ def apply_coords(parent, tree_depth, coords, x, y):
 def calculate_draw_coords(g, root):
     coords = g.new_vertex_property("vector<double>") 
     vertices = [root, 'end']
+    space = 3
     sp = 1
     w = 0
     x = 0
@@ -121,6 +113,9 @@ def calculate_draw_coords(g, root):
                 w = len(vertices)
                 vertices.append('end')
                 x = - ((w - 1) / 2)
+        elif(type(curr_vertex) == str and curr_vertex == 'space'):
+            del vertices[0]
+            x += space
 
         else:
             curr_vertex = vertices[0]
@@ -128,6 +123,7 @@ def calculate_draw_coords(g, root):
 
             children = [child for child in curr_vertex.out_neighbors()]
             vertices.extend(children)
+            vertices.append('space')
             x += sp
             del vertices[0]
     return coords
@@ -139,9 +135,17 @@ def seril_to_graph(seril, draw=False):
     vcolor = g.new_vp("string")
     eprop_label = g.new_edge_property("string") 
 
-    # Get root and add different colour
-    root = build_tree(g, vprop_label, vcolor, eprop_label, seril)
-    vcolor[root] = "#1c71d8"
+    root = None
+    # If graph only with single vertex
+    if(type(seril) == str):
+        root = g.add_vertex()
+        vprop_label[root] = seril
+        vcolor[root] = "#1c71d8"
+    # Else build up tree recursively
+    else: 
+        # Get root and add different colour
+        root = build_tree(g, vprop_label, vcolor, eprop_label, seril)
+        vcolor[root] = "#1c71d8"
 
     # Save properties
     g.vertex_properties['labels'] = vprop_label
@@ -153,6 +157,9 @@ def seril_to_graph(seril, draw=False):
     if(draw):
         graph_draw(g,
                 pos=coords,
+                output_size=(2000,2000),
+                fit_view=0.9,
+                # fit_view_ink=True,
                 vertex_aspect=1, 
                 vertex_text_position=1, 
                 vertex_text_color='black',
@@ -192,7 +199,7 @@ def get_graph_data(serils):
     # Construct graph and extract subgraphs for each seril
     for seril in tqdm(serils):
         if(seril is not None):
-            g = seril_to_graph(seril)
+            g = seril_to_graph(seril, True)
             graphs.append(g)
             add_subgraphs(seril, SUBGRAPHS)
     return graphs, SUBGRAPHS

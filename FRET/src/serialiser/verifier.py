@@ -1,5 +1,6 @@
 import json, sys
 from fret_serialiser import fret2json
+from tqdm import tqdm
 
 def json2fret(expr):
     if(type(expr) == list):
@@ -28,7 +29,7 @@ def json2fret(expr):
 
 def verify_serilisations(reqts, serialisedFormulasCount):
     print('Verifying serilisations...')
-    for reqt in reqts:
+    for reqt in tqdm(reqts):
         evalFret = json2fret(reqt['serialisation'])
         reqt['evaluatedFret'] = evalFret
         reqt['evaluatedSerialisation'] = fret2json(reqt['reqid'], evalFret)

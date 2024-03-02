@@ -2,6 +2,8 @@ from antlr4 import *
 from antlr4.tree.Trees import Trees
 from collections import namedtuple
 import sys, json
+from tqdm import tqdm
+
 sys.path.append('../../grammar')
 from RequirementLexer import RequirementLexer
 from RequirementParser import RequirementParser
@@ -100,7 +102,7 @@ class RequirementAstBuilder:
 
 def addSerilisationToReqts(reqts, readFormulasCount):
   print('Serialising...')
-  for reqt in reqts:
+  for reqt in tqdm(reqts):
     reqt['serialisation'] = fret2json(reqt['reqid'], reqt['fret'])
   
   serialisedFormulasCount = len([reqt['serialisation'] for reqt in reqts if reqt['serialisation'] != None])

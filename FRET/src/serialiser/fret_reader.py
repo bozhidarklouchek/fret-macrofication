@@ -1,4 +1,5 @@
 import json, sys
+from tqdm import tqdm
 
 KEY = 'ftInfAUExpanded'
 OUTPUT_FILE_PATH = "FRET/tests/read_json.txt"
@@ -19,7 +20,7 @@ def readJson(file_path):
 def extractFretFromKeyInJson(jsonData, key):
     reqts = list()
     if jsonData:
-        for d in jsonData:
+        for d in tqdm(jsonData):
             # If semantics key present
             if(key in d['semantics'].keys()):
                 reqts.append({'reqid': d['reqid'], 'fret': d['semantics'][key]})

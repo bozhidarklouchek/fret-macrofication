@@ -6,7 +6,6 @@ from graphs_helper import labelled_isomorphism
 def update_subgraph_state(graphs, SUBGRAPHS):
 
     print('Analysing subgraphs...')
-
     # For each graph, look for subgraphs and add to count dict
     for graph in tqdm(graphs):
         # g = seril_to_graph(serils[0], draw=True)
