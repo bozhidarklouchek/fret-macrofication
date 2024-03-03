@@ -178,17 +178,22 @@ def seril_to_graph(seril, draw=False):
     return g
 
 def labelled_isomorphism(g1, g2):                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-  if not g1.num_vertices() == g2.num_vertices():                                                                                 
-    return False                                                                                                
-  if not g1.num_edges() == g2.num_edges(): 
-    return False 
+    if not g1.num_vertices() == g2.num_vertices():                                                                                 
+        return False                                                                                                
+    if not g1.num_edges() == g2.num_edges(): 
+        return False 
 
-  sub = g1
-  graph = g2 
-  v_labels = (sub.vertex_properties["labels"], graph.vertex_properties["labels"])
-  e_labels = (sub.edge_properties["labels"], graph.edge_properties["labels"])
+    sub = g1
+    graph = g2 
+    v_labels = (sub.vertex_properties["labels"], graph.vertex_properties["labels"])
 
-  return subgraph_isomorphism(sub, graph, subgraph=False, induced=True, vertex_label=v_labels, edge_label=e_labels, max_n=1)
+    # Add empty edge labels if property missing
+    try:
+        e_labels = (sub.edge_properties["labels"], graph.edge_properties["labels"])
+    except:
+        e_labels = (sub.new_edge_property("string"), graph.new_edge_property("string"))
+
+    return subgraph_isomorphism(sub, graph, subgraph=False, induced=True, vertex_label=v_labels, edge_label=e_labels, max_n=1)
 
 def get_graph_data(serils):
     graphs = []
