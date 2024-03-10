@@ -1,4 +1,4 @@
-id,serialisation,count
+reqid,fret,serialisation
 R.031,(G (calculateTaskCompletionProbability & explain)),"['G', ['&', 'calculateTaskCompletionProbability', 'explain']]"
 R.043,((G (((! planDeviation) & (X planDeviation)) -> (X returnCurrentLocation))) & (planDeviation -> returnCurrentLocation)),"['&', ['G', ['->', ['&', ['!', 'planDeviation'], ['X', 'planDeviation']], ['X', 'returnCurrentLocation']]], ['->', 'planDeviation', 'returnCurrentLocation']]"
 R.032,((G (((! (probabilityTaskCompletion < previousProbabilityTaskCompletion)) & (X (probabilityTaskCompletion < previousProbabilityTaskCompletion))) -> (X explainAlternatives))) & ((probabilityTaskCompletion < previousProbabilityTaskCompletion) -> explainAlternatives)),"['&', ['G', ['->', ['&', ['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']], ['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]], ['X', 'explainAlternatives']]], ['->', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion'], 'explainAlternatives']]"
