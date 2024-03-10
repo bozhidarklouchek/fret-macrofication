@@ -1,0 +1,408 @@
+count,serialisation
+1,manipulationMode,34
+2,explain,26
+3,"['!', 'manipulationMode']",16
+4,"['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]",14
+5,"['X', ['!', 'manipulationMode']]",14
+6,"['X', 'explain']",10
+7,"['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]",8
+8,systemDiagnosis,7
+9,detailed,6
+10,objectPlaced,6
+11,changePlan,6
+12,safetyConcernDetected,6
+13,provideReason,5
+14,"['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]",4
+15,"['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]",4
+16,"['X', 'explainObjectLocation']",4
+17,explainObjectLocation,4
+18,"['F', 'explain']",4
+19,"['X', 'provideReason']",4
+20,failureDetected,4
+21,justifyDecision,4
+22,planDeviation,3
+23,"['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']",3
+24,probabilityTaskCompletion,3
+25,previousProbabilityTaskCompletion,3
+26,timeCritical,3
+27,taskAbort,3
+28,selfRecoveryExists,3
+29,missioncomplete,3
+30,"['X', ['X', 'explain']]",3
+31,notOptimal,3
+32,"['->', 'situationAssessment', 'lowRisk']",3
+33,situationAssessment,3
+34,lowRisk,3
+35,pathImpossible,3
+36,decisionMaking,3
+37,"['!', 'systemDiagnosis']",3
+38,unexpectedCondition,3
+39,"['!', 'clearance']",3
+40,clearance,3
+41,assessment,3
+42,problemDetected,3
+43,unexpectedObstacle,3
+44,abort,3
+45,"['>=', 'probComplete', 'p']",3
+46,probComplete,3
+47,p,3
+48,areaAvoided,3
+49,"['->', 'priorities', 'changePlan']",3
+50,priorities,3
+51,"['->', 'timeConstraints', 'changePlan']",3
+52,timeConstraints,3
+53,"['&', 'routeChange', 'infoRequest']",3
+54,routeChange,3
+55,infoRequest,3
+56,taskCannotComplete,3
+57,returnCurrentLocation,2
+58,explainAlternatives,2
+59,concise,2
+60,explainFailSafe,2
+61,"['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]",2
+62,"['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]]",2
+63,"['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]",2
+64,"['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]",2
+65,"['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]",2
+66,"['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]",2
+67,"['X', 'manipulationMode']",2
+68,"['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]",2
+69,"['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]",2
+70,"['!', 'objectPlaced']",2
+71,"['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]",2
+72,"['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]",2
+73,"['X', 'objectPlaced']",2
+74,"['F', 'explainRecoveryStrategy']",2
+75,explainRecoveryStrategy,2
+76,unexpectedBehaviour,2
+77,"['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']",2
+78,"['&', 'explainObject', 'Future(explainMaterial)']",2
+79,Future(explainCut),2
+80,explainObject,2
+81,Future(explainMaterial),2
+82,"['F', 'detailed']",2
+83,returnAllOption,2
+84,"['X', ['F', 'explain']]",2
+85,"['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']",2
+86,"['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]]",2
+87,"['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]",2
+88,"['X', ['!', 'systemDiagnosis']]",2
+89,notifyUsers,2
+90,"['G', ['!', 'shareSensitiveInformation']]",2
+91,"['!', 'shareSensitiveInformation']",2
+92,shareSensitiveInformation,2
+93,"['X', ['X', 'provideReason']]",2
+94,"['F', 'Explain']",2
+95,Explain,2
+96,"['&', 'returnUncertaintyVariables', 'explain']",2
+97,returnUncertaintyVariables,2
+98,"['!', 'mission']",2
+99,mission,2
+100,"['&', 'diagnose', 'explain']",2
+101,diagnose,2
+102,"['X', 'justifyDecision']",2
+103,"['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']]",2
+104,"['!', 'safetyConcernDetected']",2
+105,"['X', 'safetyConcernDetected']",2
+106,"['X', 'verifyAction']",2
+107,verifyAction,2
+108,"['G', ['&', 'calculateTaskCompletionProbability', 'explain']]",1
+109,"['&', 'calculateTaskCompletionProbability', 'explain']",1
+110,calculateTaskCompletionProbability,1
+111,"['&', ['G', ['->', ['&', ['!', 'planDeviation'], ['X', 'planDeviation']], ['X', 'returnCurrentLocation']]], ['->', 'planDeviation', 'returnCurrentLocation']]",1
+112,"['G', ['->', ['&', ['!', 'planDeviation'], ['X', 'planDeviation']], ['X', 'returnCurrentLocation']]]",1
+113,"['->', 'planDeviation', 'returnCurrentLocation']",1
+114,"['->', ['&', ['!', 'planDeviation'], ['X', 'planDeviation']], ['X', 'returnCurrentLocation']]",1
+115,"['&', ['!', 'planDeviation'], ['X', 'planDeviation']]",1
+116,"['X', 'returnCurrentLocation']",1
+117,"['!', 'planDeviation']",1
+118,"['X', 'planDeviation']",1
+119,"['&', ['G', ['->', ['&', ['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']], ['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]], ['X', 'explainAlternatives']]], ['->', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion'], 'explainAlternatives']]",1
+120,"['G', ['->', ['&', ['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']], ['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]], ['X', 'explainAlternatives']]]",1
+121,"['->', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion'], 'explainAlternatives']",1
+122,"['->', ['&', ['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']], ['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]], ['X', 'explainAlternatives']]",1
+123,"['&', ['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']], ['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]]",1
+124,"['X', 'explainAlternatives']",1
+125,"['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]",1
+126,"['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]",1
+127,"['V', 'explain', ['!', 'go']]",1
+128,"['!', 'go']",1
+129,go,1
+130,"['&', ['G', ['->', ['&', ['!', 'timeCritical'], ['X', 'timeCritical']], ['X', 'concise']]], ['->', 'timeCritical', 'concise']]",1
+131,"['G', ['->', ['&', ['!', 'timeCritical'], ['X', 'timeCritical']], ['X', 'concise']]]",1
+132,"['->', 'timeCritical', 'concise']",1
+133,"['->', ['&', ['!', 'timeCritical'], ['X', 'timeCritical']], ['X', 'concise']]",1
+134,"['&', ['!', 'timeCritical'], ['X', 'timeCritical']]",1
+135,"['X', 'concise']",1
+136,"['!', 'timeCritical']",1
+137,"['X', 'timeCritical']",1
+138,"['G', 'Factual']",1
+139,Factual,1
+140,"['G', ['->', 'trainingMode', 'detailed']]",1
+141,"['->', 'trainingMode', 'detailed']",1
+142,trainingMode,1
+143,"['G', ['&', ['&', ['&', ['->', 'explainCurrentPath', 'returnCurrentPath'], ['->', 'explainIntendedPath', 'returnIntendedPath']], 'followPath'], 'noDeviations']]",1
+144,"['&', ['&', ['&', ['->', 'explainCurrentPath', 'returnCurrentPath'], ['->', 'explainIntendedPath', 'returnIntendedPath']], 'followPath'], 'noDeviations']",1
+145,"['&', ['&', ['->', 'explainCurrentPath', 'returnCurrentPath'], ['->', 'explainIntendedPath', 'returnIntendedPath']], 'followPath']",1
+146,noDeviations,1
+147,"['&', ['->', 'explainCurrentPath', 'returnCurrentPath'], ['->', 'explainIntendedPath', 'returnIntendedPath']]",1
+148,followPath,1
+149,"['->', 'explainCurrentPath', 'returnCurrentPath']",1
+150,"['->', 'explainIntendedPath', 'returnIntendedPath']",1
+151,explainCurrentPath,1
+152,returnCurrentPath,1
+153,explainIntendedPath,1
+154,returnIntendedPath,1
+155,"['&', ['G', ['->', ['&', ['!', 'taskAbort'], ['X', 'taskAbort']], ['X', 'explainFailSafe']]], ['->', 'taskAbort', 'explainFailSafe']]",1
+156,"['G', ['->', ['&', ['!', 'taskAbort'], ['X', 'taskAbort']], ['X', 'explainFailSafe']]]",1
+157,"['->', 'taskAbort', 'explainFailSafe']",1
+158,"['->', ['&', ['!', 'taskAbort'], ['X', 'taskAbort']], ['X', 'explainFailSafe']]",1
+159,"['&', ['!', 'taskAbort'], ['X', 'taskAbort']]",1
+160,"['X', 'explainFailSafe']",1
+161,"['!', 'taskAbort']",1
+162,"['X', 'taskAbort']",1
+163,"['&', ['G', ['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]]], ['->', 'manipulationMode', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]]",1
+164,"['G', ['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]]]",1
+165,"['->', 'manipulationMode', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]",1
+166,"['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]]",1
+167,"['X', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]",1
+168,"['V', 'requestPermission', ['!', 'proceed']]",1
+169,requestPermission,1
+170,"['!', 'proceed']",1
+171,proceed,1
+172,"['G', 'Verifiable']",1
+173,Verifiable,1
+174,"['&', ['G', ['->', ['&', ['!', 'selfRecoveryExists'], ['X', 'selfRecoveryExists']], ['X', ['F', 'explainRecoveryStrategy']]]], ['->', 'selfRecoveryExists', ['F', 'explainRecoveryStrategy']]]",1
+175,"['G', ['->', ['&', ['!', 'selfRecoveryExists'], ['X', 'selfRecoveryExists']], ['X', ['F', 'explainRecoveryStrategy']]]]",1
+176,"['->', 'selfRecoveryExists', ['F', 'explainRecoveryStrategy']]",1
+177,"['->', ['&', ['!', 'selfRecoveryExists'], ['X', 'selfRecoveryExists']], ['X', ['F', 'explainRecoveryStrategy']]]",1
+178,"['&', ['!', 'selfRecoveryExists'], ['X', 'selfRecoveryExists']]",1
+179,"['X', ['F', 'explainRecoveryStrategy']]",1
+180,"['!', 'selfRecoveryExists']",1
+181,"['X', 'selfRecoveryExists']",1
+182,"['&', ['G', ['->', ['&', ['!', 'missioncomplete'], ['X', 'missioncomplete']], ['X', ['X', 'explain']]]], ['->', 'missioncomplete', ['X', 'explain']]]",1
+183,"['G', ['->', ['&', ['!', 'missioncomplete'], ['X', 'missioncomplete']], ['X', ['X', 'explain']]]]",1
+184,"['->', 'missioncomplete', ['X', 'explain']]",1
+185,"['->', ['&', ['!', 'missioncomplete'], ['X', 'missioncomplete']], ['X', ['X', 'explain']]]",1
+186,"['&', ['!', 'missioncomplete'], ['X', 'missioncomplete']]",1
+187,"['!', 'missioncomplete']",1
+188,"['X', 'missioncomplete']",1
+189,"['G', ['&', ['->', 'explainVisited', 'returnVisited'], ['->', 'explainMeasurements', 'returnMeasurementOrigins']]]",1
+190,"['&', ['->', 'explainVisited', 'returnVisited'], ['->', 'explainMeasurements', 'returnMeasurementOrigins']]",1
+191,"['->', 'explainVisited', 'returnVisited']",1
+192,"['->', 'explainMeasurements', 'returnMeasurementOrigins']",1
+193,explainVisited,1
+194,returnVisited,1
+195,explainMeasurements,1
+196,returnMeasurementOrigins,1
+197,"['G', ['->', 'performanceReviewMode', 'detailed']]",1
+198,"['->', 'performanceReviewMode', 'detailed']",1
+199,performanceReviewMode,1
+200,"['G', 'Truthful']",1
+201,Truthful,1
+202,"['G', ['|', ['->', ['&', 'unexpectedBehaviour', 'detailRequested'], 'detailedExplain'], ['->', ['!', 'unexpectedBehaviour'], 'explain']]]",1
+203,"['|', ['->', ['&', 'unexpectedBehaviour', 'detailRequested'], 'detailedExplain'], ['->', ['!', 'unexpectedBehaviour'], 'explain']]",1
+204,"['->', ['&', 'unexpectedBehaviour', 'detailRequested'], 'detailedExplain']",1
+205,"['->', ['!', 'unexpectedBehaviour'], 'explain']",1
+206,"['&', 'unexpectedBehaviour', 'detailRequested']",1
+207,detailedExplain,1
+208,"['!', 'unexpectedBehaviour']",1
+209,detailRequested,1
+210,"['&', ['G', ['->', ['&', ['!', 'notOptimal'], ['X', 'notOptimal']], ['X', 'explain']]], ['->', 'notOptimal', 'explain']]",1
+211,"['G', ['->', ['&', ['!', 'notOptimal'], ['X', 'notOptimal']], ['X', 'explain']]]",1
+212,"['->', 'notOptimal', 'explain']",1
+213,"['->', ['&', ['!', 'notOptimal'], ['X', 'notOptimal']], ['X', 'explain']]",1
+214,"['&', ['!', 'notOptimal'], ['X', 'notOptimal']]",1
+215,"['!', 'notOptimal']",1
+216,"['X', 'notOptimal']",1
+217,"['&', ['G', ['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]]], ['->', 'manipulationMode', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]]",1
+218,"['G', ['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]]]",1
+219,"['->', 'manipulationMode', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]",1
+220,"['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]]",1
+221,"['X', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]",1
+222,"['&', ['G', ['->', ['&', ['!', ['->', 'situationAssessment', 'lowRisk']], ['X', ['->', 'situationAssessment', 'lowRisk']]], ['X', ['F', 'detailed']]]], ['->', ['->', 'situationAssessment', 'lowRisk'], ['F', 'detailed']]]",1
+223,"['G', ['->', ['&', ['!', ['->', 'situationAssessment', 'lowRisk']], ['X', ['->', 'situationAssessment', 'lowRisk']]], ['X', ['F', 'detailed']]]]",1
+224,"['->', ['->', 'situationAssessment', 'lowRisk'], ['F', 'detailed']]",1
+225,"['->', ['&', ['!', ['->', 'situationAssessment', 'lowRisk']], ['X', ['->', 'situationAssessment', 'lowRisk']]], ['X', ['F', 'detailed']]]",1
+226,"['&', ['!', ['->', 'situationAssessment', 'lowRisk']], ['X', ['->', 'situationAssessment', 'lowRisk']]]",1
+227,"['X', ['F', 'detailed']]",1
+228,"['!', ['->', 'situationAssessment', 'lowRisk']]",1
+229,"['X', ['->', 'situationAssessment', 'lowRisk']]",1
+230,"['&', ['G', ['->', ['&', ['!', 'pathImpossible'], ['X', 'pathImpossible']], ['X', 'returnAllOption']]], ['->', 'pathImpossible', 'returnAllOption']]",1
+231,"['G', ['->', ['&', ['!', 'pathImpossible'], ['X', 'pathImpossible']], ['X', 'returnAllOption']]]",1
+232,"['->', 'pathImpossible', 'returnAllOption']",1
+233,"['->', ['&', ['!', 'pathImpossible'], ['X', 'pathImpossible']], ['X', 'returnAllOption']]",1
+234,"['&', ['!', 'pathImpossible'], ['X', 'pathImpossible']]",1
+235,"['X', 'returnAllOption']",1
+236,"['!', 'pathImpossible']",1
+237,"['X', 'pathImpossible']",1
+238,"['&', ['G', ['->', ['&', ['!', 'decisionMaking'], ['X', 'decisionMaking']], ['X', ['F', 'explain']]]], ['->', 'decisionMaking', ['F', 'explain']]]",1
+239,"['G', ['->', ['&', ['!', 'decisionMaking'], ['X', 'decisionMaking']], ['X', ['F', 'explain']]]]",1
+240,"['->', 'decisionMaking', ['F', 'explain']]",1
+241,"['->', ['&', ['!', 'decisionMaking'], ['X', 'decisionMaking']], ['X', ['F', 'explain']]]",1
+242,"['&', ['!', 'decisionMaking'], ['X', 'decisionMaking']]",1
+243,"['!', 'decisionMaking']",1
+244,"['X', 'decisionMaking']",1
+245,"['&', ['G', ['|', ['!', ['&', ['!', 'systemDiagnosis'], ['X', 'systemDiagnosis']]], ['X', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]]], ['->', 'systemDiagnosis', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]]",1
+246,"['G', ['|', ['!', ['&', ['!', 'systemDiagnosis'], ['X', 'systemDiagnosis']]], ['X', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]]]",1
+247,"['->', 'systemDiagnosis', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]",1
+248,"['|', ['!', ['&', ['!', 'systemDiagnosis'], ['X', 'systemDiagnosis']]], ['X', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]]",1
+249,"['!', ['&', ['!', 'systemDiagnosis'], ['X', 'systemDiagnosis']]]",1
+250,"['X', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]",1
+251,"['&', ['!', 'systemDiagnosis'], ['X', 'systemDiagnosis']]",1
+252,"['X', 'systemDiagnosis']",1
+253,"['G', ['&', 'provideHealthUpdate', ['>', 'selfRecoveryStrategyConfidence', 'acceptableThreshold']]]",1
+254,"['&', 'provideHealthUpdate', ['>', 'selfRecoveryStrategyConfidence', 'acceptableThreshold']]",1
+255,provideHealthUpdate,1
+256,"['>', 'selfRecoveryStrategyConfidence', 'acceptableThreshold']",1
+257,selfRecoveryStrategyConfidence,1
+258,acceptableThreshold,1
+259,"['&', ['G', ['->', ['&', ['!', 'unexpectedCondition'], ['X', 'unexpectedCondition']], ['X', 'notifyUsers']]], ['->', 'unexpectedCondition', 'notifyUsers']]",1
+260,"['G', ['->', ['&', ['!', 'unexpectedCondition'], ['X', 'unexpectedCondition']], ['X', 'notifyUsers']]]",1
+261,"['->', 'unexpectedCondition', 'notifyUsers']",1
+262,"['->', ['&', ['!', 'unexpectedCondition'], ['X', 'unexpectedCondition']], ['X', 'notifyUsers']]",1
+263,"['&', ['!', 'unexpectedCondition'], ['X', 'unexpectedCondition']]",1
+264,"['X', 'notifyUsers']",1
+265,"['!', 'unexpectedCondition']",1
+266,"['X', 'unexpectedCondition']",1
+267,"['&', ['G', ['->', ['&', ['!', ['!', 'clearance']], ['X', ['!', 'clearance']]], ['X', ['G', ['!', 'shareSensitiveInformation']]]]], ['->', ['!', 'clearance'], ['G', ['!', 'shareSensitiveInformation']]]]",1
+268,"['G', ['->', ['&', ['!', ['!', 'clearance']], ['X', ['!', 'clearance']]], ['X', ['G', ['!', 'shareSensitiveInformation']]]]]",1
+269,"['->', ['!', 'clearance'], ['G', ['!', 'shareSensitiveInformation']]]",1
+270,"['->', ['&', ['!', ['!', 'clearance']], ['X', ['!', 'clearance']]], ['X', ['G', ['!', 'shareSensitiveInformation']]]]",1
+271,"['&', ['!', ['!', 'clearance']], ['X', ['!', 'clearance']]]",1
+272,"['X', ['G', ['!', 'shareSensitiveInformation']]]",1
+273,"['!', ['!', 'clearance']]",1
+274,"['X', ['!', 'clearance']]",1
+275,"['&', ['G', ['->', ['&', ['!', 'assessment'], ['X', 'assessment']], ['X', ['X', 'provideReason']]]], ['->', 'assessment', ['X', 'provideReason']]]",1
+276,"['G', ['->', ['&', ['!', 'assessment'], ['X', 'assessment']], ['X', ['X', 'provideReason']]]]",1
+277,"['->', 'assessment', ['X', 'provideReason']]",1
+278,"['->', ['&', ['!', 'assessment'], ['X', 'assessment']], ['X', ['X', 'provideReason']]]",1
+279,"['&', ['!', 'assessment'], ['X', 'assessment']]",1
+280,"['!', 'assessment']",1
+281,"['X', 'assessment']",1
+282,"['G', ['&', ['&', 'sampleDoseRate', 'avoidObstacles'], 'minimiseRadRisk']]",1
+283,"['&', ['&', 'sampleDoseRate', 'avoidObstacles'], 'minimiseRadRisk']",1
+284,"['&', 'sampleDoseRate', 'avoidObstacles']",1
+285,minimiseRadRisk,1
+286,sampleDoseRate,1
+287,avoidObstacles,1
+288,"['&', ['G', ['->', ['&', ['!', 'problemDetected'], ['X', 'problemDetected']], ['X', ['F', 'explain']]]], ['->', 'problemDetected', ['F', 'explain']]]",1
+289,"['G', ['->', ['&', ['!', 'problemDetected'], ['X', 'problemDetected']], ['X', ['F', 'explain']]]]",1
+290,"['->', 'problemDetected', ['F', 'explain']]",1
+291,"['->', ['&', ['!', 'problemDetected'], ['X', 'problemDetected']], ['X', ['F', 'explain']]]",1
+292,"['&', ['!', 'problemDetected'], ['X', 'problemDetected']]",1
+293,"['!', 'problemDetected']",1
+294,"['X', 'problemDetected']",1
+295,"['&', ['G', ['->', ['&', ['!', 'unexpectedObstacle'], ['X', 'unexpectedObstacle']], ['X', ['F', 'Explain']]]], ['->', 'unexpectedObstacle', ['F', 'Explain']]]",1
+296,"['G', ['->', ['&', ['!', 'unexpectedObstacle'], ['X', 'unexpectedObstacle']], ['X', ['F', 'Explain']]]]",1
+297,"['->', 'unexpectedObstacle', ['F', 'Explain']]",1
+298,"['->', ['&', ['!', 'unexpectedObstacle'], ['X', 'unexpectedObstacle']], ['X', ['F', 'Explain']]]",1
+299,"['&', ['!', 'unexpectedObstacle'], ['X', 'unexpectedObstacle']]",1
+300,"['X', ['F', 'Explain']]",1
+301,"['!', 'unexpectedObstacle']",1
+302,"['X', 'unexpectedObstacle']",1
+303,"['&', ['G', ['->', ['&', ['!', 'abort'], ['X', 'abort']], ['X', 'explain']]], ['->', 'abort', 'explain']]",1
+304,"['G', ['->', ['&', ['!', 'abort'], ['X', 'abort']], ['X', 'explain']]]",1
+305,"['->', 'abort', 'explain']",1
+306,"['->', ['&', ['!', 'abort'], ['X', 'abort']], ['X', 'explain']]",1
+307,"['&', ['!', 'abort'], ['X', 'abort']]",1
+308,"['!', 'abort']",1
+309,"['X', 'abort']",1
+310,"['&', ['G', ['->', ['&', ['!', ['>=', 'probComplete', 'p']], ['X', ['>=', 'probComplete', 'p']]], ['X', ['&', 'returnUncertaintyVariables', 'explain']]]], ['->', ['>=', 'probComplete', 'p'], ['&', 'returnUncertaintyVariables', 'explain']]]",1
+311,"['G', ['->', ['&', ['!', ['>=', 'probComplete', 'p']], ['X', ['>=', 'probComplete', 'p']]], ['X', ['&', 'returnUncertaintyVariables', 'explain']]]]",1
+312,"['->', ['>=', 'probComplete', 'p'], ['&', 'returnUncertaintyVariables', 'explain']]",1
+313,"['->', ['&', ['!', ['>=', 'probComplete', 'p']], ['X', ['>=', 'probComplete', 'p']]], ['X', ['&', 'returnUncertaintyVariables', 'explain']]]",1
+314,"['&', ['!', ['>=', 'probComplete', 'p']], ['X', ['>=', 'probComplete', 'p']]]",1
+315,"['X', ['&', 'returnUncertaintyVariables', 'explain']]",1
+316,"['!', ['>=', 'probComplete', 'p']]",1
+317,"['X', ['>=', 'probComplete', 'p']]",1
+318,"['G', ['->', 'failureDetected', ['&', 'explainOffNormal', 'failSafe']]]",1
+319,"['->', 'failureDetected', ['&', 'explainOffNormal', 'failSafe']]",1
+320,"['&', 'explainOffNormal', 'failSafe']",1
+321,explainOffNormal,1
+322,failSafe,1
+323,"['&', ['G', ['->', ['&', ['!', 'areaAvoided'], ['X', 'areaAvoided']], ['X', 'explain']]], ['->', 'areaAvoided', 'explain']]",1
+324,"['G', ['->', ['&', ['!', 'areaAvoided'], ['X', 'areaAvoided']], ['X', 'explain']]]",1
+325,"['->', 'areaAvoided', 'explain']",1
+326,"['->', ['&', ['!', 'areaAvoided'], ['X', 'areaAvoided']], ['X', 'explain']]",1
+327,"['&', ['!', 'areaAvoided'], ['X', 'areaAvoided']]",1
+328,"['!', 'areaAvoided']",1
+329,"['X', 'areaAvoided']",1
+330,"['&', ['G', ['->', ['&', ['!', ['->', 'priorities', 'changePlan']], ['X', ['->', 'priorities', 'changePlan']]], ['X', ['X', 'explain']]]], ['->', ['->', 'priorities', 'changePlan'], ['X', 'explain']]]",1
+331,"['G', ['->', ['&', ['!', ['->', 'priorities', 'changePlan']], ['X', ['->', 'priorities', 'changePlan']]], ['X', ['X', 'explain']]]]",1
+332,"['->', ['->', 'priorities', 'changePlan'], ['X', 'explain']]",1
+333,"['->', ['&', ['!', ['->', 'priorities', 'changePlan']], ['X', ['->', 'priorities', 'changePlan']]], ['X', ['X', 'explain']]]",1
+334,"['&', ['!', ['->', 'priorities', 'changePlan']], ['X', ['->', 'priorities', 'changePlan']]]",1
+335,"['!', ['->', 'priorities', 'changePlan']]",1
+336,"['X', ['->', 'priorities', 'changePlan']]",1
+337,"['G', 'explainTaskProbability']",1
+338,explainTaskProbability,1
+339,"['V', 'explainHealth', ['!', 'mission']]",1
+340,explainHealth,1
+341,"['G', ['->', 'developer', 'produceDetailedExplanation']]",1
+342,"['->', 'developer', 'produceDetailedExplanation']",1
+343,developer,1
+344,produceDetailedExplanation,1
+345,"['&', ['G', ['->', ['&', ['!', ['->', 'timeConstraints', 'changePlan']], ['X', ['->', 'timeConstraints', 'changePlan']]], ['X', ['X', 'explain']]]], ['->', ['->', 'timeConstraints', 'changePlan'], ['X', 'explain']]]",1
+346,"['G', ['->', ['&', ['!', ['->', 'timeConstraints', 'changePlan']], ['X', ['->', 'timeConstraints', 'changePlan']]], ['X', ['X', 'explain']]]]",1
+347,"['->', ['->', 'timeConstraints', 'changePlan'], ['X', 'explain']]",1
+348,"['->', ['&', ['!', ['->', 'timeConstraints', 'changePlan']], ['X', ['->', 'timeConstraints', 'changePlan']]], ['X', ['X', 'explain']]]",1
+349,"['&', ['!', ['->', 'timeConstraints', 'changePlan']], ['X', ['->', 'timeConstraints', 'changePlan']]]",1
+350,"['!', ['->', 'timeConstraints', 'changePlan']]",1
+351,"['X', ['->', 'timeConstraints', 'changePlan']]",1
+352,"['G', ['&', 'monitorHealth', ['->', ['<', 'health', 'threshold'], 'explain']]]",1
+353,"['&', 'monitorHealth', ['->', ['<', 'health', 'threshold'], 'explain']]",1
+354,monitorHealth,1
+355,"['->', ['<', 'health', 'threshold'], 'explain']",1
+356,"['<', 'health', 'threshold']",1
+357,health,1
+358,threshold,1
+359,"['G', ['&', 'explainLocation', 'provideReason']]",1
+360,"['&', 'explainLocation', 'provideReason']",1
+361,explainLocation,1
+362,"['&', ['G', ['->', ['&', ['!', 'failureDetected'], ['X', 'failureDetected']], ['X', ['&', 'diagnose', 'explain']]]], ['->', 'failureDetected', ['&', 'diagnose', 'explain']]]",1
+363,"['G', ['->', ['&', ['!', 'failureDetected'], ['X', 'failureDetected']], ['X', ['&', 'diagnose', 'explain']]]]",1
+364,"['->', 'failureDetected', ['&', 'diagnose', 'explain']]",1
+365,"['->', ['&', ['!', 'failureDetected'], ['X', 'failureDetected']], ['X', ['&', 'diagnose', 'explain']]]",1
+366,"['&', ['!', 'failureDetected'], ['X', 'failureDetected']]",1
+367,"['X', ['&', 'diagnose', 'explain']]",1
+368,"['!', 'failureDetected']",1
+369,"['X', 'failureDetected']",1
+370,"['V', 'explainSuitable', ['!', 'mission']]",1
+371,explainSuitable,1
+372,"['F', ['&', 'robotLocation', 'taskCompletionStatus']]",1
+373,"['&', 'robotLocation', 'taskCompletionStatus']",1
+374,robotLocation,1
+375,taskCompletionStatus,1
+376,"['&', ['G', ['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'justifyDecision']]]], ['->', 'safetyConcernDetected', ['X', 'justifyDecision']]]",1
+377,"['G', ['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'justifyDecision']]]]",1
+378,"['->', 'safetyConcernDetected', ['X', 'justifyDecision']]",1
+379,"['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'justifyDecision']]]",1
+380,"['X', ['X', 'justifyDecision']]",1
+381,"['G', ['->', 'pathPlanning', ['&', 'explainPath', 'justifyDecision']]]",1
+382,"['->', 'pathPlanning', ['&', 'explainPath', 'justifyDecision']]",1
+383,pathPlanning,1
+384,"['&', 'explainPath', 'justifyDecision']",1
+385,explainPath,1
+386,"['&', ['G', ['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'verifyAction']]]], ['->', 'safetyConcernDetected', ['X', 'verifyAction']]]",1
+387,"['G', ['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'verifyAction']]]]",1
+388,"['->', 'safetyConcernDetected', ['X', 'verifyAction']]",1
+389,"['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'verifyAction']]]",1
+390,"['X', ['X', 'verifyAction']]",1
+391,"['G', ['->', 'pathPlanningMode', 'justifyDecision']]",1
+392,"['->', 'pathPlanningMode', 'justifyDecision']",1
+393,pathPlanningMode,1
+394,"['&', ['G', ['->', ['&', ['!', ['&', 'routeChange', 'infoRequest']], ['X', ['&', 'routeChange', 'infoRequest']]], ['X', ['X', 'provideReason']]]], ['->', ['&', 'routeChange', 'infoRequest'], ['X', 'provideReason']]]",1
+395,"['G', ['->', ['&', ['!', ['&', 'routeChange', 'infoRequest']], ['X', ['&', 'routeChange', 'infoRequest']]], ['X', ['X', 'provideReason']]]]",1
+396,"['->', ['&', 'routeChange', 'infoRequest'], ['X', 'provideReason']]",1
+397,"['->', ['&', ['!', ['&', 'routeChange', 'infoRequest']], ['X', ['&', 'routeChange', 'infoRequest']]], ['X', ['X', 'provideReason']]]",1
+398,"['&', ['!', ['&', 'routeChange', 'infoRequest']], ['X', ['&', 'routeChange', 'infoRequest']]]",1
+399,"['!', ['&', 'routeChange', 'infoRequest']]",1
+400,"['X', ['&', 'routeChange', 'infoRequest']]",1
+401,"['&', ['G', ['->', ['&', ['!', 'taskCannotComplete'], ['X', 'taskCannotComplete']], ['X', 'explain']]], ['->', 'taskCannotComplete', 'explain']]",1
+402,"['G', ['->', ['&', ['!', 'taskCannotComplete'], ['X', 'taskCannotComplete']], ['X', 'explain']]]",1
+403,"['->', 'taskCannotComplete', 'explain']",1
+404,"['->', ['&', ['!', 'taskCannotComplete'], ['X', 'taskCannotComplete']], ['X', 'explain']]",1
+405,"['&', ['!', 'taskCannotComplete'], ['X', 'taskCannotComplete']]",1
+406,"['!', 'taskCannotComplete']",1
+407,"['X', 'taskCannotComplete']",1
