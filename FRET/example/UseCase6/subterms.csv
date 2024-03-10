@@ -1,0 +1,110 @@
+id,serialisation,count
+1,parallelGuidanceRequested,6
+2,stop,6
+3,"['F', 'stop']",4
+4,"['F', 'dropRequest']",4
+5,dropRequest,4
+6,IMUFail,3
+7,manualModeRequestd,3
+8,unwantedManualModeRequested,3
+9,rcDisconnectDetected,3
+10,unrecoverablError,3
+11,unwantedParallelGuidanceRequest,3
+12,rcConnected,3
+13,commRequest,3
+14,"['F', ['->', 'checkIMUConnection', 'ParallelGuidanceMode']]",2
+15,"['&', ['!', 'parallelGuidanceRequested'], ['X', 'parallelGuidanceRequested']]",2
+16,"['->', 'checkIMUConnection', 'ParallelGuidanceMode']",2
+17,"['!', 'parallelGuidanceRequested']",2
+18,"['X', 'parallelGuidanceRequested']",2
+19,checkIMUConnection,2
+20,ParallelGuidanceMode,2
+21,"['X', ['F', 'stop']]",2
+22,"['F', ['->', 'stop', 'ManualMode']]",2
+23,"['->', 'stop', 'ManualMode']",2
+24,ManualMode,2
+25,"['X', ['F', 'dropRequest']]",2
+26,"['F', 'rcDisconnectedWarning']",2
+27,rcDisconnectedWarning,2
+28,"['F', ['->', 'authentication', 'communication']]",2
+29,"['->', 'authentication', 'communication']",2
+30,authentication,2
+31,communication,2
+32,"['F', ['->', 'checkGPS', 'parallelGuidanceMode']]",2
+33,"['->', 'checkGPS', 'parallelGuidanceMode']",2
+34,checkGPS,2
+35,parallelGuidanceMode,2
+36,"['&', ['G', ['->', ['&', ['!', 'parallelGuidanceRequested'], ['X', 'parallelGuidanceRequested']], ['X', ['F', ['->', 'checkIMUConnection', 'ParallelGuidanceMode']]]]], ['->', 'parallelGuidanceRequested', ['F', ['->', 'checkIMUConnection', 'ParallelGuidanceMode']]]]",1
+37,"['G', ['->', ['&', ['!', 'parallelGuidanceRequested'], ['X', 'parallelGuidanceRequested']], ['X', ['F', ['->', 'checkIMUConnection', 'ParallelGuidanceMode']]]]]",1
+38,"['->', 'parallelGuidanceRequested', ['F', ['->', 'checkIMUConnection', 'ParallelGuidanceMode']]]",1
+39,"['->', ['&', ['!', 'parallelGuidanceRequested'], ['X', 'parallelGuidanceRequested']], ['X', ['F', ['->', 'checkIMUConnection', 'ParallelGuidanceMode']]]]",1
+40,"['X', ['F', ['->', 'checkIMUConnection', 'ParallelGuidanceMode']]]",1
+41,"['&', ['G', ['->', ['&', ['!', 'IMUFail'], ['X', 'IMUFail']], ['X', ['F', 'stop']]]], ['->', 'IMUFail', ['F', 'stop']]]",1
+42,"['G', ['->', ['&', ['!', 'IMUFail'], ['X', 'IMUFail']], ['X', ['F', 'stop']]]]",1
+43,"['->', 'IMUFail', ['F', 'stop']]",1
+44,"['->', ['&', ['!', 'IMUFail'], ['X', 'IMUFail']], ['X', ['F', 'stop']]]",1
+45,"['&', ['!', 'IMUFail'], ['X', 'IMUFail']]",1
+46,"['!', 'IMUFail']",1
+47,"['X', 'IMUFail']",1
+48,"['&', ['G', ['->', ['&', ['!', 'manualModeRequestd'], ['X', 'manualModeRequestd']], ['X', ['F', ['->', 'stop', 'ManualMode']]]]], ['->', 'manualModeRequestd', ['F', ['->', 'stop', 'ManualMode']]]]",1
+49,"['G', ['->', ['&', ['!', 'manualModeRequestd'], ['X', 'manualModeRequestd']], ['X', ['F', ['->', 'stop', 'ManualMode']]]]]",1
+50,"['->', 'manualModeRequestd', ['F', ['->', 'stop', 'ManualMode']]]",1
+51,"['->', ['&', ['!', 'manualModeRequestd'], ['X', 'manualModeRequestd']], ['X', ['F', ['->', 'stop', 'ManualMode']]]]",1
+52,"['&', ['!', 'manualModeRequestd'], ['X', 'manualModeRequestd']]",1
+53,"['X', ['F', ['->', 'stop', 'ManualMode']]]",1
+54,"['!', 'manualModeRequestd']",1
+55,"['X', 'manualModeRequestd']",1
+56,"['F', '[0,200]', 'controlCycle']",1
+57,"[0,200]",1
+58,controlCycle,1
+59,"['F', '[0,9]', 'drivingCycleComplete']",1
+60,"[0,9]",1
+61,drivingCycleComplete,1
+62,"['&', ['G', ['->', ['&', ['!', 'unwantedManualModeRequested'], ['X', 'unwantedManualModeRequested']], ['X', ['F', 'dropRequest']]]], ['->', 'unwantedManualModeRequested', ['F', 'dropRequest']]]",1
+63,"['G', ['->', ['&', ['!', 'unwantedManualModeRequested'], ['X', 'unwantedManualModeRequested']], ['X', ['F', 'dropRequest']]]]",1
+64,"['->', 'unwantedManualModeRequested', ['F', 'dropRequest']]",1
+65,"['->', ['&', ['!', 'unwantedManualModeRequested'], ['X', 'unwantedManualModeRequested']], ['X', ['F', 'dropRequest']]]",1
+66,"['&', ['!', 'unwantedManualModeRequested'], ['X', 'unwantedManualModeRequested']]",1
+67,"['!', 'unwantedManualModeRequested']",1
+68,"['X', 'unwantedManualModeRequested']",1
+69,"['&', ['G', ['->', ['&', ['!', 'rcDisconnectDetected'], ['X', 'rcDisconnectDetected']], ['X', ['F', 'rcDisconnectedWarning']]]], ['->', 'rcDisconnectDetected', ['F', 'rcDisconnectedWarning']]]",1
+70,"['G', ['->', ['&', ['!', 'rcDisconnectDetected'], ['X', 'rcDisconnectDetected']], ['X', ['F', 'rcDisconnectedWarning']]]]",1
+71,"['->', 'rcDisconnectDetected', ['F', 'rcDisconnectedWarning']]",1
+72,"['->', ['&', ['!', 'rcDisconnectDetected'], ['X', 'rcDisconnectDetected']], ['X', ['F', 'rcDisconnectedWarning']]]",1
+73,"['&', ['!', 'rcDisconnectDetected'], ['X', 'rcDisconnectDetected']]",1
+74,"['X', ['F', 'rcDisconnectedWarning']]",1
+75,"['!', 'rcDisconnectDetected']",1
+76,"['X', 'rcDisconnectDetected']",1
+77,"['&', ['G', ['->', ['&', ['!', 'unrecoverablError'], ['X', 'unrecoverablError']], ['X', ['F', 'stop']]]], ['->', 'unrecoverablError', ['F', 'stop']]]",1
+78,"['G', ['->', ['&', ['!', 'unrecoverablError'], ['X', 'unrecoverablError']], ['X', ['F', 'stop']]]]",1
+79,"['->', 'unrecoverablError', ['F', 'stop']]",1
+80,"['->', ['&', ['!', 'unrecoverablError'], ['X', 'unrecoverablError']], ['X', ['F', 'stop']]]",1
+81,"['&', ['!', 'unrecoverablError'], ['X', 'unrecoverablError']]",1
+82,"['!', 'unrecoverablError']",1
+83,"['X', 'unrecoverablError']",1
+84,"['&', ['G', ['->', ['&', ['!', 'unwantedParallelGuidanceRequest'], ['X', 'unwantedParallelGuidanceRequest']], ['X', ['F', 'dropRequest']]]], ['->', 'unwantedParallelGuidanceRequest', ['F', 'dropRequest']]]",1
+85,"['G', ['->', ['&', ['!', 'unwantedParallelGuidanceRequest'], ['X', 'unwantedParallelGuidanceRequest']], ['X', ['F', 'dropRequest']]]]",1
+86,"['->', 'unwantedParallelGuidanceRequest', ['F', 'dropRequest']]",1
+87,"['->', ['&', ['!', 'unwantedParallelGuidanceRequest'], ['X', 'unwantedParallelGuidanceRequest']], ['X', ['F', 'dropRequest']]]",1
+88,"['&', ['!', 'unwantedParallelGuidanceRequest'], ['X', 'unwantedParallelGuidanceRequest']]",1
+89,"['!', 'unwantedParallelGuidanceRequest']",1
+90,"['X', 'unwantedParallelGuidanceRequest']",1
+91,"['G', ['->', ['|', 'rcConnected', ['&', ['!', 'rcConnected'], 'rcConnectRequest']], 'rcConnected']]",1
+92,"['->', ['|', 'rcConnected', ['&', ['!', 'rcConnected'], 'rcConnectRequest']], 'rcConnected']",1
+93,"['|', 'rcConnected', ['&', ['!', 'rcConnected'], 'rcConnectRequest']]",1
+94,"['&', ['!', 'rcConnected'], 'rcConnectRequest']",1
+95,"['!', 'rcConnected']",1
+96,rcConnectRequest,1
+97,"['&', ['G', ['->', ['&', ['!', 'commRequest'], ['X', 'commRequest']], ['X', ['F', ['->', 'authentication', 'communication']]]]], ['->', 'commRequest', ['F', ['->', 'authentication', 'communication']]]]",1
+98,"['G', ['->', ['&', ['!', 'commRequest'], ['X', 'commRequest']], ['X', ['F', ['->', 'authentication', 'communication']]]]]",1
+99,"['->', 'commRequest', ['F', ['->', 'authentication', 'communication']]]",1
+100,"['->', ['&', ['!', 'commRequest'], ['X', 'commRequest']], ['X', ['F', ['->', 'authentication', 'communication']]]]",1
+101,"['&', ['!', 'commRequest'], ['X', 'commRequest']]",1
+102,"['X', ['F', ['->', 'authentication', 'communication']]]",1
+103,"['!', 'commRequest']",1
+104,"['X', 'commRequest']",1
+105,"['&', ['G', ['->', ['&', ['!', 'parallelGuidanceRequested'], ['X', 'parallelGuidanceRequested']], ['X', ['F', ['->', 'checkGPS', 'parallelGuidanceMode']]]]], ['->', 'parallelGuidanceRequested', ['F', ['->', 'checkGPS', 'parallelGuidanceMode']]]]",1
+106,"['G', ['->', ['&', ['!', 'parallelGuidanceRequested'], ['X', 'parallelGuidanceRequested']], ['X', ['F', ['->', 'checkGPS', 'parallelGuidanceMode']]]]]",1
+107,"['->', 'parallelGuidanceRequested', ['F', ['->', 'checkGPS', 'parallelGuidanceMode']]]",1
+108,"['->', ['&', ['!', 'parallelGuidanceRequested'], ['X', 'parallelGuidanceRequested']], ['X', ['F', ['->', 'checkGPS', 'parallelGuidanceMode']]]]",1
+109,"['X', ['F', ['->', 'checkGPS', 'parallelGuidanceMode']]]",1
