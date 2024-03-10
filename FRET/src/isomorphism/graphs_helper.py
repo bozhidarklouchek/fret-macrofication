@@ -1,6 +1,7 @@
 from graph_tool.all import *
 import cairo
 from tqdm import tqdm
+import ast
 
 # Unsure about U, V
 UNORDERED = {'&', '|', 'XOR', '<->', '<=>',
@@ -8,11 +9,11 @@ UNORDERED = {'&', '|', 'XOR', '<->', '<=>',
 ORDERED = {'->', '=>', 'ifThen', 'atPrevOccurrenceOf',
            'atNextOccurrenceOf', '^', '-', '<', '<=',
            '>', '>=', '!', '~', 'Y', 'H', 'O', 'G',
-           'X', 'F', '/'}
+           'X', 'F', '/', 'U', 'V'}
 PARTIAL = {'partial_test': 3, 'partial_test2': 5}
 UNORDERED_LABEL = '*'
 
-def add_subgraphs(seril, SUBGRAPHS):
+def add_subgraphs(seril, subgraphs):
     sub_serils = [seril]
     while(len(sub_serils) != 0):
         
@@ -28,12 +29,12 @@ def add_subgraphs(seril, SUBGRAPHS):
 
         # Check if already in dict
         curr_is_unique = True
-        for unique_subg in SUBGRAPHS.keys():
+        for unique_subg in subgraphs.keys():
             if(labelled_isomorphism(unique_subg, curr_subg)):
                 curr_is_unique = False
                 break
         if(curr_is_unique):
-            SUBGRAPHS[curr_subg] = (curr_seril, 0)
+            subgraphs[curr_subg] = {'id': -1, 'serialisation': curr_seril, 'count': 0}
         
         # Delete seril that's been inspected
         del sub_serils[0]
@@ -49,6 +50,17 @@ def build_tree(g, vprop_label, vcolor, eprop_label, seril):
 
     childNum = 1
     edge_label = ''
+
+    # if(type(seril) == list and len(seril) == 2):
+    #     if(type(seril[0] == int) and type(seril[1] == int)):
+    #         child = g.add_vertex()
+    #         vprop_label[child] = str(seril)
+    #         vcolor[child] = "#2ec27e"
+
+    #         e = g.add_edge(parent, child)
+    #         eprop_label[e] = edge_label
+    #         return parent
+
     for subseq_seril in seril[1:]:
         # Apply UNORDERED_LABEL if operator is unordered
         if(seril[0] in UNORDERED):
@@ -66,10 +78,12 @@ def build_tree(g, vprop_label, vcolor, eprop_label, seril):
                 childNum += 1
             else:
                 edge_label = UNORDERED_LABEL
+        else:
+            raise Exception(f'Unrecognised operator {seril[0]}')
 
 
-        # Don't call recursive function if curr child is leaf vertex
-        if(type(subseq_seril) == str):
+        # Don't call recursive function if curr child is str/int leaf
+        if(type(subseq_seril) == str or type(subseq_seril) == int):
             child = g.add_vertex()
             vprop_label[child] = subseq_seril
             vcolor[child] = "#2ec27e"
@@ -159,7 +173,6 @@ def seril_to_graph(seril, draw=False):
                 pos=coords,
                 output_size=(2000,2000),
                 fit_view=0.9,
-                # fit_view_ink=True,
                 vertex_aspect=1, 
                 vertex_text_position=1, 
                 vertex_text_color='black',
@@ -176,6 +189,22 @@ def seril_to_graph(seril, draw=False):
                 output="graph.pdf")
 
     return g
+
+def string_seril_to_graph(string_seril):
+    graph = None
+    if(not('[' in string_seril or
+        ']' in string_seril or
+        ',' in string_seril)):
+        string_seril = f'["{string_seril}"]'
+        graph = seril_to_graph(ast.literal_eval(string_seril))
+    # Leaf duration
+    elif(len(ast.literal_eval(string_seril)) == 2 and
+            type(ast.literal_eval(string_seril)[0]) == int and
+            type(ast.literal_eval(string_seril)[1]) == int):
+        graph = seril_to_graph(string_seril)
+    else:
+        graph = seril_to_graph(ast.literal_eval(string_seril))
+    return graph
 
 def labelled_isomorphism(g1, g2):                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
     if not g1.num_vertices() == g2.num_vertices():                                                                                 
@@ -197,15 +226,15 @@ def labelled_isomorphism(g1, g2):
 
 def get_graph_data(serils):
     graphs = []
-    SUBGRAPHS = {}
+    subgraphs = {}
 
     print('Constructing parent graphs...')
 
     # Construct graph and extract subgraphs for each seril
     for seril in tqdm(serils):
         if(seril is not None):
-            g = seril_to_graph(seril, True)
+            g = seril_to_graph(seril)
             graphs.append(g)
-            add_subgraphs(seril, SUBGRAPHS)
-    return graphs, SUBGRAPHS
+            add_subgraphs(seril, subgraphs)
+    return graphs, subgraphs
     

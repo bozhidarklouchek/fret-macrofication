@@ -3,17 +3,20 @@ from tqdm import tqdm
 
 from graphs_helper import labelled_isomorphism
 
-def update_subgraph_state(graphs, SUBGRAPHS):
+def update_subgraph_state(graphs, subgraphs):
 
-    print('Analysing subgraphs...')
+    # Initialise subgraph dictionary
+    # for sub in subgraphs.keys():
+    #     subgraphs[sub] = {'id': -1, 'serialisation':'', 'count': 0}
+
+    print('Extracting subgraphs...')
     # For each graph, look for subgraphs and add to count dict
     for graph in tqdm(graphs):
-        # g = seril_to_graph(serils[0], draw=True)
-        for sub in SUBGRAPHS.keys():
+        for sub in subgraphs.keys():
 
             # If graphs are the same, add 1 and continue
             if(labelled_isomorphism(sub, graph)):
-                SUBGRAPHS[sub] = (SUBGRAPHS[sub][0], SUBGRAPHS[sub][1] + 1)
+                subgraphs[sub] = {'id': -1, 'serialisation': subgraphs[sub]['serialisation'], 'count': subgraphs[sub]['count'] + 1}
                 continue
 
             # Get graph properties
@@ -26,11 +29,18 @@ def update_subgraph_state(graphs, SUBGRAPHS):
                                     sub,
                                     graph,
                                     subgraph=True,         
-                                    induced=True,        
+                                    induced=False,        
                                     vertex_label=v_labels,
                                     edge_label=e_labels, 
                                     max_n=0                  # We want all matches (n=0 is all matches)
                                     )
 
             for isomorphism in isomorphisms:
-                SUBGRAPHS[sub] = (SUBGRAPHS[sub][0], SUBGRAPHS[sub][1] + 1)
+                subgraphs[sub] = {'id': -1, 'serialisation': subgraphs[sub]['serialisation'], 'count': subgraphs[sub]['count'] + 1}
+
+    # Order based on count
+    subgraphs_ordered = sorted(subgraphs.items(), key=lambda item: item[1]['count'], reverse=True)
+
+    # Add id in subgraphs object
+    for idx, subg_ordered in enumerate(subgraphs_ordered):
+        subgraphs[subg_ordered[0]]['id'] = idx + 1

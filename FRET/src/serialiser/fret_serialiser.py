@@ -4,7 +4,7 @@ from collections import namedtuple
 import sys, json
 from tqdm import tqdm
 
-sys.path.append('../../grammar')
+sys.path.append('../grammar')
 from RequirementLexer import RequirementLexer
 from RequirementParser import RequirementParser
 

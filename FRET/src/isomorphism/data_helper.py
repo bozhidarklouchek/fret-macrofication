@@ -1,6 +1,6 @@
 import json, csv
 
-RESULT_PATH = '../../output/subgraph_count.csv'
+RESULT_PATH = '../output/{0}'
 
 def read_seril_json(path):
     print('Reading serialised input...')
@@ -15,12 +15,12 @@ def read_seril_json(path):
     print(f'{len(valid_serils)}/{len(serils)} are valid.')
     return valid_serils
 
-def write_result(subgraphs):
-    print('Saving result...')
-    with open(RESULT_PATH, 'w', newline='') as csvfile:
+def write_subterm_count(subgraphs):
+    path = RESULT_PATH.replace('{0}', 'subgraph_count.csv')
+    with open(path, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['count', 'serialisation'])
         # Write each row separately to a CSV file
-        for _, seril_and_count  in sorted(subgraphs.items(), key=lambda item: item[1][1], reverse=True):
-            writer.writerow([seril_and_count[1], seril_and_count[0]])
-    print(f'Result has been saved to {RESULT_PATH}')
+        for _, subg_details in sorted(subgraphs.items(), key=lambda item: item[1]['count'], reverse=True):
+            writer.writerow([subg_details['id'], subg_details['serialisation'], subg_details['count']])
+    print(f'Subterm count has been saved to {path}')

@@ -220,7 +220,7 @@ bool_expr :  op=('!' | '~') a=bool_expr                                         
 // 	| bool_expr 'S' tl_intvl bool_expr
  	;
 
- tl_intvl : ('['NUMBER']')
+ tl_intvl : ('['NUMBER']')                      
  	| ('['NUMBER','NUMBER']')
  	;
 

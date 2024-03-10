@@ -1,0 +1,24 @@
+[
+{
+    "reqid": "FUN39",
+    "semantics": {
+        "ftInfAUExpanded": "(F [0,10] (A | B))"
+    }
+},
+{
+    "reqid": "FUN39",
+    "semantics": {
+        "ftInfAUExpanded": "(F [0,10] (B | A))"
+    }
+},
+{
+    "reqid": "FUN39",
+    "semantics": {
+        "ftInfAUExpanded": "(F (B | A))"
+    }
+},
+{
+    "reqid": "FUN39",
+    "semantics":{}
+}
+]
