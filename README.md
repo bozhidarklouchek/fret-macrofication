@@ -6,12 +6,20 @@ To use the software you need a .json of formulas in a formal language of your ch
 - be serialised using prefix notation, and then
 - analysed for isomorphic subgraphs
 
-## Serialisation
+## Running the software
+Run the main.py script in /src by passing it the .json file of requirements you need to serialise.
+
+Example run from fret-macrofication/FRET/src: `python3 .\main.py ..\..\data\fret_data\raw\UseCase6.json`
+
+## Running steps separately
+Keep in mind the output paths will need to be changed as this is not the intended way to run the software!
+
+### Serialisation
 Run the main.py script in /src/serialisation by passing it the .json file of requirements you need to serialise.
 
 Example run from fret-macrofication/FRET/serialisation/src: `python3 .\main.py ..\data\fret_data\raw\UseCase6.json`
 
-## Isomorphism
+### Isomorphism
 Run the main.py script in /src/isomorphism after the output of the previous section is constructed.
 
 Example run from fret-macrofication/FRET/isomorphism/src: `python3 .\main.py`

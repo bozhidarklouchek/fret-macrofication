@@ -3,7 +3,7 @@ from graph_tool.all import *
 from tqdm import tqdm
 import csv, json, ast
 
-def build_subterm_trees(subgraphs, min_count=100):
+def build_subterm_trees(subgraphs, min_count=1):
     # Get all subterm trees for all subgraphs
     trees = set()
     for sub in subgraphs.keys():
