@@ -1,6 +1,6 @@
 # Example FRET Requirements
 
-Here are a collection of FRET requirements from several collections. Inside each collection you will find several files:
+Here is a collection of FRET requirements from several collections. Inside each collection you will find several files:
 - FRET JSON - the file containing the original FRET data
 - requirements.csv - the extracted FRET requirements in the format:
   - requirement id,
