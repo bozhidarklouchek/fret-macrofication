@@ -1,0 +1,4 @@
+serialisation,size,count,shrinking_power
+"['&', 'A', 'D']",3,2,6
+"['|', 'A', 'C']",3,2,6
+"['->', 'C', 'D']",3,2,6

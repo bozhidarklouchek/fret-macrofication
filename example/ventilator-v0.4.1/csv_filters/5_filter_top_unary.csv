@@ -1,0 +1,10 @@
+serialisation,size,count,shrinking_power
+"['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]",6,38,228
+"['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]",6,24,144
+"['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]",6,22,132
+"['!', ['&', ['!', 'SelfTestMode'], ['X', 'SelfTestMode']]]",6,8,48
+"['!', ['&', ['!', 'PCVMode'], ['X', 'PCVMode']]]",6,7,42
+"['!', ['&', 'InspiratoryPauseButton', ['X', ['!', 'InspiratoryPauseButton']]]]",6,4,24
+"['!', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]]]",6,4,24
+"['!', ['&', ['!', 'PSVMode'], ['X', 'PSVMode']]]",6,3,18
+"['!', ['&', 'PCVInspTimeEnd', 'PSVMode']]",4,4,16

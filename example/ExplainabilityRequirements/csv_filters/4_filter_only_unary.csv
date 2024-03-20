@@ -1,0 +1,10 @@
+serialisation,size,count,shrinking_power
+"['X', ['!', 'manipulationMode']]",3,14,42
+"['!', 'manipulationMode']",2,16,32
+"['X', 'explain']",2,10,20
+"['X', ['X', 'explain']]",3,3,9
+"['X', 'provideReason']",2,4,8
+"['F', 'explain']",2,4,8
+"['X', 'explainObjectLocation']",2,4,8
+"['!', 'clearance']",2,3,6
+"['!', 'systemDiagnosis']",2,3,6

@@ -227,4 +227,3 @@ def build_relationship_map(trees, subgraphs, draw=True):
                 'width': relationship_map_width},
             output="../output/relationship_map.pdf")
     
-    return []

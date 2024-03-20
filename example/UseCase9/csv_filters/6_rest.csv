@@ -1,0 +1,11 @@
+serialisation,size,count,shrinking_power
+"['&', ['|', 'daytime', 'nighttime'], ['|', ['|', ['|', ['|', ['|', 'sunny', 'clear'], 'cloudy'], 'rainy'], 'foggy'], 'snowy']]",15,6,90
+"['|', ['|', ['|', ['|', ['|', 'sunny', 'clear'], 'cloudy'], 'rainy'], 'foggy'], 'snowy']",11,6,66
+"['|', ['|', ['|', ['|', 'sunny', 'clear'], 'cloudy'], 'rainy'], 'foggy']",9,6,54
+"['&', ['&', ['|', 'daytime', 'nighttime'], ['|', ['|', ['|', ['|', ['|', 'sunny', 'clear'], 'cloudy'], 'rainy'], 'foggy'], 'snowy']], 'signalLightOccluded']",17,3,51
+"['&', ['&', ['|', 'daytime', 'nighttime'], ['|', ['|', ['|', ['|', ['|', 'sunny', 'clear'], 'cloudy'], 'rainy'], 'foggy'], 'snowy']], 'speedSignOcclusions']",17,3,51
+"['|', ['|', ['|', 'sunny', 'clear'], 'cloudy'], 'rainy']",7,6,42
+"['|', ['|', 'sunny', 'clear'], 'cloudy']",5,6,30
+"['|', 'daytime', 'nighttime']",3,6,18
+"['|', 'sunny', 'clear']",3,6,18
+"['&', ['!', 'validationTest'], ['X', 'validationTest']]",5,3,15

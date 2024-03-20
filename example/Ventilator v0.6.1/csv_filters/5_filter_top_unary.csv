@@ -1,0 +1,65 @@
+serialisation,size,count,shrinking_power
+"['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]",6,74,444
+"['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]",6,72,432
+"['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]",6,40,240
+"['!', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]]]",6,36,216
+"['!', ['&', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']], ['X', ['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']]]]]]",20,8,160
+"['!', ['&', ['|', 'PCVMode', 'PSVMode'], ['X', ['!', ['|', 'PCVMode', 'PSVMode']]]]]",10,16,160
+"['X', ['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']]]]",10,14,140
+"['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']]]",9,15,135
+"['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton'], ['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton']]]]]",14,8,112
+"['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton'], ['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton']]]]]",14,8,112
+"['X', ['!', ['|', 'PCVMode', 'PSVMode']]]",5,20,100
+"['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton']]]",7,14,98
+"['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton']]]",7,14,98
+"['!', ['&', 'StandbyMode', ['X', ['!', 'StandbyMode']]]]",6,16,96
+"['!', ['|', 'PCVMode', 'PSVMode']]",4,23,92
+"['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton']]",6,15,90
+"['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton']]",6,15,90
+"['X', ['&', ['&', ['&', 'PCVMode', ['=', 'RR', 'RR_AP']], ['=', 'P_insp', 'P_inspAP']], ['=', 'ItoE', 'ItoE_AP']]]",14,6,84
+"['!', ['&', ['&', 'PSVMode', 'expiratoryPhase'], ['X', ['!', ['&', 'PSVMode', 'expiratoryPhase']]]]]",10,8,80
+"['!', ['U', ['&', ['!', 'buttonUnPressOr60Seconds'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]], ['&', ['!', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']], ['!', 'buttonUnPressOr60Seconds']]]]",20,4,80
+"['!', ['&', ['&', 'PCVMode', 'RMButton'], ['X', ['!', ['&', 'PCVMode', 'RMButton']]]]]",10,8,80
+"['!', ['&', ['&', 'PSVMode', 'RMButton'], ['X', ['!', ['&', 'PSVMode', 'RMButton']]]]]",10,8,80
+"['!', ['U', ['&', ['!', 'buttonUnPressOr60Seconds'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]], ['&', ['!', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']], ['!', 'buttonUnPressOr60Seconds']]]]",20,4,80
+"['!', ['U', ['&', ['!', 'off'], ['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]], ['&', ['!', ['&', ['!', 'StandbyMode'], ['!', 'ventilating']]], ['!', 'off']]]]",20,4,80
+"['X', ['|', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]], ['&', ['X', ['&', 'ventilating', 'PSVMode']], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]]]",18,4,72
+"['X', ['!', ['&', 'PSVMode', 'expiratoryPhase']]]",5,14,70
+"['X', ['!', ['&', 'PCVMode', 'RMButton']]]",5,14,70
+"['X', ['!', ['&', 'PSVMode', 'RMButton']]]",5,14,70
+"['!', ['&', ['!', 'SelfTestMode'], ['X', 'SelfTestMode']]]",6,11,66
+"['X', ['&', ['&', ['&', ['&', 'apnea', 'PCVMode'], ['=', 'RR', 'RR_AP']], ['=', 'P_insp', 'P_inspAP']], ['=', 'ItoE', 'ItoE_AP']]]",16,4,64
+"['X', ['|', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]], ['&', ['X', 'FailSafeMode'], ['!', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]]]]]]",16,4,64
+"['X', ['|', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]], ['&', ['X', 'expirationPhaseStart'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]]]",16,4,64
+"['!', ['&', 'PSVMode', 'expiratoryPhase']]",4,15,60
+"['!', ['&', 'PCVMode', 'RMButton']]",4,15,60
+"['!', ['&', 'PSVMode', 'RMButton']]",4,15,60
+"['!', ['&', ['!', 'PSVMode'], ['X', 'PSVMode']]]",6,10,60
+"['!', ['&', ['!', 'PCVMode'], ['X', 'PCVMode']]]",6,9,54
+"['!', ['&', ['!', 'StartUpMode'], ['X', 'StartUpMode']]]",6,9,54
+"['X', ['!', ['&', 'PCVMode', 'inspiratoryPauseButton']]]",5,10,50
+"['X', ['!', ['&', 'PSVMode', 'inspiratoryPauseButton']]]",5,10,50
+"['!', ['&', 'RM', ['X', ['!', 'RM']]]]",6,8,48
+"['!', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']]",6,8,48
+"['!', ['&', 'PCVMode', 'inspiratoryPauseButton']]",4,11,44
+"['!', ['&', 'PSVMode', 'inspiratoryPauseButton']]",4,11,44
+"['!', ['&', ['&', 'PCVMode', 'inspiratoryPauseButton'], ['X', ['!', ['&', 'PCVMode', 'inspiratoryPauseButton']]]]]",10,4,40
+"['!', ['&', ['&', 'PSVMode', 'inspiratoryPauseButton'], ['X', ['!', ['&', 'PSVMode', 'inspiratoryPauseButton']]]]]",10,4,40
+"['X', ['&', 'ventilating', 'PSVMode']]",4,8,32
+"['X', ['->', 'inspiratoryPauseButton', ['&', ['&', 'inspiratoryPause', 'inValveClose'], 'outValveClose']]]",8,4,32
+"['X', ['->', 'expiratoryPauseButton', ['&', ['&', 'expiratoryPause', 'inValveClose'], 'outValveClose']]]",8,4,32
+"['!', ['|', ['>=', 'P_insp', 'MaxP_insp'], ['>=', 'inspClock', 'inspiratoryTime']]]",8,4,32
+"['!', ['&', ['!', ['|', 'PCVMode', 'PSVMode']], ['X', ['|', 'PCVMode', 'PSVMode']]]]",10,3,30
+"['!', ['&', 'inspiratoryPauseButton', ['X', ['!', 'inspiratoryPauseButton']]]]",6,4,24
+"['!', ['&', ['!', 'StandbyMode'], ['!', 'ventilating']]]",6,4,24
+"['!', ['&', ['!', 'inspiratoryPause'], 'expirationPhaseStart']]",5,4,20
+"['X', ['&', ['!', 'RM'], 'expirationPhaseStart']]",5,4,20
+"['!', ['&', ['!', 'expiratoryPause'], 'inspiratoryPhaseStart']]",5,4,20
+"['X', ['!', ['&', 'PCVInspTimeEnd', 'PSVMode']]]",5,4,20
+"['!', ['&', ['!', 'RM'], 'expirationPhaseStart']]",5,4,20
+"['X', ['&', 'OutOfServiceWarning', 'FailSafeMode']]",4,4,16
+"['!', ['&', 'PCVInspTimeEnd', 'PSVMode']]",4,4,16
+"['X', ['>=', 'breathingTime', 'apneaLagTime']]",4,4,16
+"['!', ['>=', 'breathingTime', 'apneaLagTime']]",4,4,16
+"['X', ['&', 'inspiratoryPhaseEnd', 'expirationPhaseStart']]",4,4,16
+"['X', ['|', 'PCVMode', 'PSVMode']]",4,3,12

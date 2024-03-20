@@ -1,0 +1,16 @@
+serialisation,size,count,shrinking_power
+"['&', ['G', ['->', ['&', ['!', 'validationTest'], ['X', 'validationTest']], ['X', ['F', 'calculateAccuracy']]]], ['->', 'validationTest', ['F', 'calculateAccuracy']]]",15,2,30
+"['&', ['G', ['->', ['&', ['!', 'objectDetected'], ['X', 'objectDetected']], ['X', ['F', 'logObject']]]], ['->', 'objectDetected', ['F', 'logObject']]]",15,2,30
+"['G', ['->', ['&', ['!', 'validationTest'], ['X', 'validationTest']], ['X', ['F', 'calculateAccuracy']]]]",10,2,20
+"['G', ['->', ['&', ['!', 'objectDetected'], ['X', 'objectDetected']], ['X', ['F', 'logObject']]]]",10,2,20
+"['->', ['&', ['!', 'validationTest'], ['X', 'validationTest']], ['X', ['F', 'calculateAccuracy']]]",9,2,18
+"['->', ['&', ['!', 'objectDetected'], ['X', 'objectDetected']], ['X', ['F', 'logObject']]]",9,2,18
+"['&', ['!', 'objectDetected'], ['X', 'objectDetected']]",5,2,10
+"['->', 'validationTest', ['F', 'calculateAccuracy']]",4,2,8
+"['->', 'objectDetected', ['F', 'logObject']]",4,2,8
+"['X', ['F', 'calculateAccuracy']]",3,2,6
+"['X', ['F', 'logObject']]",3,2,6
+"['X', ['F', 'generateFrameset']]",3,2,6
+"['F', 'logTest']",2,2,4
+"['X', 'objectDetected']",2,2,4
+"['!', 'objectDetected']",2,2,4

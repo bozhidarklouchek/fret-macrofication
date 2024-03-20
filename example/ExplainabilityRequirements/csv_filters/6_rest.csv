@@ -1,0 +1,10 @@
+serialisation,size,count,shrinking_power
+"['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]",5,14,70
+"['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]",15,4,60
+"['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]",9,4,36
+"['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']",3,3,9
+"['->', 'situationAssessment', 'lowRisk']",3,3,9
+"['>=', 'probComplete', 'p']",3,3,9
+"['->', 'priorities', 'changePlan']",3,3,9
+"['->', 'timeConstraints', 'changePlan']",3,3,9
+"['&', 'routeChange', 'infoRequest']",3,3,9

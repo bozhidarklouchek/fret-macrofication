@@ -1,0 +1,24 @@
+serialisation,size,count,shrinking_power
+"['X', ['!', 'PCVMode']]",3,46,138
+"['!', 'PCVMode']",2,53,106
+"['X', ['!', 'PSVMode']]",3,30,90
+"['X', ['!', 'SelfTestMode']]",3,24,72
+"['!', 'PSVMode']",2,33,66
+"['!', 'SelfTestMode']",2,32,64
+"['X', ['!', 'InspiratoryPauseButton']]",3,10,30
+"['!', 'InspiratoryPauseButton']",2,11,22
+"['!', 'resumeVentilation']",2,8,16
+"['X', 'SelfTestMode']",2,8,16
+"['X', 'PCVMode']",2,7,14
+"['!', ['!', 'resumeVentilation']]",3,4,12
+"['X', ['!', 'StartUpMode']]",3,4,12
+"['!', 'StartUpMode']",2,6,12
+"['X', 'PSVModeSelected']",2,6,12
+"['!', 'PSVModeSelected']",2,6,12
+"['!', 'off']",2,5,10
+"['F', 'patientSafe']",2,5,10
+"['!', 'patientConnected']",2,4,8
+"['!', 'StandbyMode']",2,3,6
+"['!', 'FailSafeMode']",2,3,6
+"['!', 'GUIConnected']",2,3,6
+"['X', 'PSVMode']",2,3,6

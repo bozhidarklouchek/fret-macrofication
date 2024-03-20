@@ -1,0 +1,56 @@
+serialisation,size,count,shrinking_power
+"['X', ['!', 'PSVMode']]",3,136,408
+"['X', ['!', 'PCVMode']]",3,126,378
+"['!', 'PSVMode']",2,146,292
+"['!', 'PCVMode']",2,135,270
+"['X', ['!', 'SelfTestMode']]",3,62,186
+"['X', ['!', 'StartUpMode']]",3,54,162
+"['!', 'SelfTestMode']",2,73,146
+"['!', 'StartUpMode']",2,65,130
+"['!', 'inspiratoryPauseButton']",2,48,96
+"['X', ['!', 'StandbyMode']]",3,28,84
+"['!', 'StandbyMode']",2,42,84
+"['!', 'RM']",2,26,52
+"['X', ['!', 'RM']]",3,14,42
+"['X', 'RM']",2,18,36
+"['X', 'StandbyMode']",2,16,32
+"['!', 'buttonUnPressOr60Seconds']",2,16,32
+"['X', ['!', 'inspiratoryPauseButton']]",3,10,30
+"['X', 'SelfTestMode']",2,15,30
+"['X', 'inspiratoryPhaseEnd']",2,14,28
+"['!', 'inspiratoryPhaseEnd']",2,14,28
+"['X', 'PSVMode']",2,14,28
+"['X', 'PCVMode']",2,13,26
+"['!', 'off']",2,13,26
+"['!', 'patientBreathingRequest']",2,12,24
+"['!', 'ventilating']",2,12,24
+"['X', 'StartUpMode']",2,11,22
+"['X', 'expirationPhaseStart']",2,9,18
+"['X', 'FailSafeMode']",2,8,16
+"['!', 'RMButton']",2,8,16
+"['!', 'resumeVentilation']",2,8,16
+"['X', 'PSVModeSelected']",2,8,16
+"['!', 'PSVModeSelected']",2,8,16
+"['X', 'patientBreathingRequest']",2,8,16
+"['X', 'inspiratoryPhaseStart']",2,8,16
+"['!', 'inspiratoryPause']",2,7,14
+"['!', 'expiratoryPause']",2,7,14
+"['!', ['!', 'resumeVentilation']]",3,4,12
+"['X', 'breathingCycleStart']",2,6,12
+"['X', 'apnea']",2,6,12
+"['!', 'expiratoryPauseButton']",2,6,12
+"['X', ['!', 'FailSafeMode']]",3,3,9
+"['X', 'patientSafe']",2,4,8
+"['!', 'patientConnected']",2,4,8
+"['X', 'stopVentilation']",2,4,8
+"['!', 'stopVentilation']",2,4,8
+"['!', 'monitorInhaleTrigger']",2,4,8
+"['X', 'BreathingCycleStart']",2,4,8
+"['!', 'BreathingCycleStart']",2,4,8
+"['!', 'FinalState']",2,3,6
+"['X', 'FinalState']",2,3,6
+"['!', 'powerButton']",2,3,6
+"['!', 'GUIConnected']",2,3,6
+"['!', 'apnea']",2,3,6
+"['!', 'FailSafeMode']",2,3,6
+"['X', 'inspiratoryPauseButton']",2,3,6

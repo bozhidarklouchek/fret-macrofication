@@ -1,0 +1,32 @@
+[
+    {
+        "reqid": "REQ_1",
+        "semantics": {
+            "ftInfAUExpanded": "(((A & B) | C) -> D) & ((A & B) | C)"
+        }
+    },
+    {
+        "reqid": "REQ_2",
+        "semantics": {
+            "ftInfAUExpanded": "(C -> D) & (A & B)"
+        }
+    },
+    {
+        "reqid": "REQ_3",
+        "semantics": {
+            "ftInfAUExpanded": "((A | C) & (A & D)) -> C"
+        }
+    },
+    {
+        "reqid": "REQ_4",
+        "semantics": {
+            "ftInfAUExpanded": "(A | C) -> ((A & B) | C)"
+        }
+    },
+    {
+        "reqid": "REQ_5",
+        "semantics": {
+            "ftInfAUExpanded": "(((A & B) | C) & (A & D)) | ((C -> D) -> (A & B))"
+        }
+    }
+]

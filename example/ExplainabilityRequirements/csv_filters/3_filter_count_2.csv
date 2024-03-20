@@ -1,0 +1,35 @@
+serialisation,size,count,shrinking_power
+"['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]",60,2,120
+"['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]",42,2,84
+"['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]",36,2,72
+"['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]",23,2,46
+"['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]",17,2,34
+"['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]",16,2,32
+"['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]",12,2,24
+"['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]",9,2,18
+"['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']",8,2,16
+"['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]]",6,2,12
+"['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]]",6,2,12
+"['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']]",5,2,10
+"['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]",5,2,10
+"['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']",5,2,10
+"['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]",5,2,10
+"['&', 'diagnose', 'explain']",3,2,6
+"['&', 'returnUncertaintyVariables', 'explain']",3,2,6
+"['X', ['X', 'provideReason']]",3,2,6
+"['G', ['!', 'shareSensitiveInformation']]",3,2,6
+"['X', ['!', 'systemDiagnosis']]",3,2,6
+"['X', ['F', 'explain']]",3,2,6
+"['&', 'explainObject', 'Future(explainMaterial)']",3,2,6
+"['X', 'verifyAction']",2,2,4
+"['X', 'safetyConcernDetected']",2,2,4
+"['!', 'safetyConcernDetected']",2,2,4
+"['X', 'justifyDecision']",2,2,4
+"['!', 'mission']",2,2,4
+"['F', 'Explain']",2,2,4
+"['!', 'shareSensitiveInformation']",2,2,4
+"['F', 'detailed']",2,2,4
+"['F', 'explainRecoveryStrategy']",2,2,4
+"['X', 'objectPlaced']",2,2,4
+"['!', 'objectPlaced']",2,2,4
+"['X', 'manipulationMode']",2,2,4

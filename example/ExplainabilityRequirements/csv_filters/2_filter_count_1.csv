@@ -1,0 +1,258 @@
+serialisation,size,count,shrinking_power
+"['&', ['G', ['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]]], ['->', 'manipulationMode', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]]",132,1,132
+"['G', ['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]]]",69,1,69
+"['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]]",68,1,68
+"['->', 'manipulationMode', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]",62,1,62
+"['X', ['&', ['V', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['->', ['&', ['!', 'objectPlaced'], ['&', ['X', 'objectPlaced'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]], ['&', ['X', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]], ['->', 'objectPlaced', ['|', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]], ['&', ['X', 'explainObjectLocation'], ['!', ['&', 'manipulationMode', ['X', ['!', 'manipulationMode']]]]]]]]]",61,1,61
+"['&', ['G', ['|', ['!', ['&', ['!', 'systemDiagnosis'], ['X', 'systemDiagnosis']]], ['X', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]]], ['->', 'systemDiagnosis', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]]",28,1,28
+"['&', ['G', ['->', ['&', ['!', ['>=', 'probComplete', 'p']], ['X', ['>=', 'probComplete', 'p']]], ['X', ['&', 'returnUncertaintyVariables', 'explain']]]], ['->', ['>=', 'probComplete', 'p'], ['&', 'returnUncertaintyVariables', 'explain']]]",23,1,23
+"['&', ['G', ['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]]], ['->', 'manipulationMode', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]]",22,1,22
+"['&', ['G', ['->', ['&', ['!', ['&', 'routeChange', 'infoRequest']], ['X', ['&', 'routeChange', 'infoRequest']]], ['X', ['X', 'provideReason']]]], ['->', ['&', 'routeChange', 'infoRequest'], ['X', 'provideReason']]]",21,1,21
+"['&', ['G', ['->', ['&', ['!', ['->', 'timeConstraints', 'changePlan']], ['X', ['->', 'timeConstraints', 'changePlan']]], ['X', ['X', 'explain']]]], ['->', ['->', 'timeConstraints', 'changePlan'], ['X', 'explain']]]",21,1,21
+"['&', ['G', ['->', ['&', ['!', ['->', 'priorities', 'changePlan']], ['X', ['->', 'priorities', 'changePlan']]], ['X', ['X', 'explain']]]], ['->', ['->', 'priorities', 'changePlan'], ['X', 'explain']]]",21,1,21
+"['&', ['G', ['->', ['&', ['!', ['->', 'situationAssessment', 'lowRisk']], ['X', ['->', 'situationAssessment', 'lowRisk']]], ['X', ['F', 'detailed']]]], ['->', ['->', 'situationAssessment', 'lowRisk'], ['F', 'detailed']]]",21,1,21
+"['&', ['G', ['->', ['&', ['!', ['!', 'clearance']], ['X', ['!', 'clearance']]], ['X', ['G', ['!', 'shareSensitiveInformation']]]]], ['->', ['!', 'clearance'], ['G', ['!', 'shareSensitiveInformation']]]]",20,1,20
+"['&', ['G', ['->', ['&', ['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']], ['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]], ['X', 'explainAlternatives']]], ['->', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion'], 'explainAlternatives']]",19,1,19
+"['&', ['G', ['->', ['&', ['!', 'failureDetected'], ['X', 'failureDetected']], ['X', ['&', 'diagnose', 'explain']]]], ['->', 'failureDetected', ['&', 'diagnose', 'explain']]]",17,1,17
+"['G', ['|', ['!', ['&', ['!', 'systemDiagnosis'], ['X', 'systemDiagnosis']]], ['X', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]]]",17,1,17
+"['|', ['!', ['&', ['!', 'systemDiagnosis'], ['X', 'systemDiagnosis']]], ['X', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]]",16,1,16
+"['&', ['G', ['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'verifyAction']]]], ['->', 'safetyConcernDetected', ['X', 'verifyAction']]]",15,1,15
+"['&', ['G', ['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'justifyDecision']]]], ['->', 'safetyConcernDetected', ['X', 'justifyDecision']]]",15,1,15
+"['G', ['->', ['&', ['!', ['>=', 'probComplete', 'p']], ['X', ['>=', 'probComplete', 'p']]], ['X', ['&', 'returnUncertaintyVariables', 'explain']]]]",15,1,15
+"['&', ['G', ['->', ['&', ['!', 'unexpectedObstacle'], ['X', 'unexpectedObstacle']], ['X', ['F', 'Explain']]]], ['->', 'unexpectedObstacle', ['F', 'Explain']]]",15,1,15
+"['&', ['G', ['->', ['&', ['!', 'problemDetected'], ['X', 'problemDetected']], ['X', ['F', 'explain']]]], ['->', 'problemDetected', ['F', 'explain']]]",15,1,15
+"['&', ['G', ['->', ['&', ['!', 'assessment'], ['X', 'assessment']], ['X', ['X', 'provideReason']]]], ['->', 'assessment', ['X', 'provideReason']]]",15,1,15
+"['&', ['G', ['->', ['&', ['!', 'decisionMaking'], ['X', 'decisionMaking']], ['X', ['F', 'explain']]]], ['->', 'decisionMaking', ['F', 'explain']]]",15,1,15
+"['&', ['G', ['->', ['&', ['!', 'missioncomplete'], ['X', 'missioncomplete']], ['X', ['X', 'explain']]]], ['->', 'missioncomplete', ['X', 'explain']]]",15,1,15
+"['&', ['G', ['->', ['&', ['!', 'selfRecoveryExists'], ['X', 'selfRecoveryExists']], ['X', ['F', 'explainRecoveryStrategy']]]], ['->', 'selfRecoveryExists', ['F', 'explainRecoveryStrategy']]]",15,1,15
+"['G', ['->', ['&', ['!', ['&', 'routeChange', 'infoRequest']], ['X', ['&', 'routeChange', 'infoRequest']]], ['X', ['X', 'provideReason']]]]",14,1,14
+"['G', ['->', ['&', ['!', ['->', 'timeConstraints', 'changePlan']], ['X', ['->', 'timeConstraints', 'changePlan']]], ['X', ['X', 'explain']]]]",14,1,14
+"['G', ['->', ['&', ['!', ['->', 'priorities', 'changePlan']], ['X', ['->', 'priorities', 'changePlan']]], ['X', ['X', 'explain']]]]",14,1,14
+"['->', ['&', ['!', ['>=', 'probComplete', 'p']], ['X', ['>=', 'probComplete', 'p']]], ['X', ['&', 'returnUncertaintyVariables', 'explain']]]",14,1,14
+"['G', ['->', ['&', ['!', ['->', 'situationAssessment', 'lowRisk']], ['X', ['->', 'situationAssessment', 'lowRisk']]], ['X', ['F', 'detailed']]]]",14,1,14
+"['G', ['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]]]",14,1,14
+"['&', ['G', ['->', ['&', ['!', 'taskCannotComplete'], ['X', 'taskCannotComplete']], ['X', 'explain']]], ['->', 'taskCannotComplete', 'explain']]",13,1,13
+"['->', ['&', ['!', ['&', 'routeChange', 'infoRequest']], ['X', ['&', 'routeChange', 'infoRequest']]], ['X', ['X', 'provideReason']]]",13,1,13
+"['->', ['&', ['!', ['->', 'timeConstraints', 'changePlan']], ['X', ['->', 'timeConstraints', 'changePlan']]], ['X', ['X', 'explain']]]",13,1,13
+"['->', ['&', ['!', ['->', 'priorities', 'changePlan']], ['X', ['->', 'priorities', 'changePlan']]], ['X', ['X', 'explain']]]",13,1,13
+"['&', ['G', ['->', ['&', ['!', 'areaAvoided'], ['X', 'areaAvoided']], ['X', 'explain']]], ['->', 'areaAvoided', 'explain']]",13,1,13
+"['&', ['G', ['->', ['&', ['!', 'abort'], ['X', 'abort']], ['X', 'explain']]], ['->', 'abort', 'explain']]",13,1,13
+"['G', ['->', ['&', ['!', ['!', 'clearance']], ['X', ['!', 'clearance']]], ['X', ['G', ['!', 'shareSensitiveInformation']]]]]",13,1,13
+"['&', ['G', ['->', ['&', ['!', 'unexpectedCondition'], ['X', 'unexpectedCondition']], ['X', 'notifyUsers']]], ['->', 'unexpectedCondition', 'notifyUsers']]",13,1,13
+"['&', ['G', ['->', ['&', ['!', 'pathImpossible'], ['X', 'pathImpossible']], ['X', 'returnAllOption']]], ['->', 'pathImpossible', 'returnAllOption']]",13,1,13
+"['->', ['&', ['!', ['->', 'situationAssessment', 'lowRisk']], ['X', ['->', 'situationAssessment', 'lowRisk']]], ['X', ['F', 'detailed']]]",13,1,13
+"['|', ['!', ['&', ['!', 'manipulationMode'], ['X', 'manipulationMode']]], ['X', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]]",13,1,13
+"['&', ['G', ['->', ['&', ['!', 'notOptimal'], ['X', 'notOptimal']], ['X', 'explain']]], ['->', 'notOptimal', 'explain']]",13,1,13
+"['&', ['G', ['->', ['&', ['!', 'taskAbort'], ['X', 'taskAbort']], ['X', 'explainFailSafe']]], ['->', 'taskAbort', 'explainFailSafe']]",13,1,13
+"['&', ['G', ['->', ['&', ['!', 'timeCritical'], ['X', 'timeCritical']], ['X', 'concise']]], ['->', 'timeCritical', 'concise']]",13,1,13
+"['G', ['->', ['&', ['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']], ['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]], ['X', 'explainAlternatives']]]",13,1,13
+"['&', ['G', ['->', ['&', ['!', 'planDeviation'], ['X', 'planDeviation']], ['X', 'returnCurrentLocation']]], ['->', 'planDeviation', 'returnCurrentLocation']]",13,1,13
+"['->', ['&', ['!', ['!', 'clearance']], ['X', ['!', 'clearance']]], ['X', ['G', ['!', 'shareSensitiveInformation']]]]",12,1,12
+"['G', ['&', ['&', ['&', ['->', 'explainCurrentPath', 'returnCurrentPath'], ['->', 'explainIntendedPath', 'returnIntendedPath']], 'followPath'], 'noDeviations']]",12,1,12
+"['->', ['&', ['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']], ['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]], ['X', 'explainAlternatives']]",12,1,12
+"['G', ['->', ['&', ['!', 'failureDetected'], ['X', 'failureDetected']], ['X', ['&', 'diagnose', 'explain']]]]",11,1,11
+"['G', ['|', ['->', ['&', 'unexpectedBehaviour', 'detailRequested'], 'detailedExplain'], ['->', ['!', 'unexpectedBehaviour'], 'explain']]]",11,1,11
+"['&', ['&', ['&', ['->', 'explainCurrentPath', 'returnCurrentPath'], ['->', 'explainIntendedPath', 'returnIntendedPath']], 'followPath'], 'noDeviations']",11,1,11
+"['G', ['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'verifyAction']]]]",10,1,10
+"['G', ['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'justifyDecision']]]]",10,1,10
+"['->', ['&', ['!', 'failureDetected'], ['X', 'failureDetected']], ['X', ['&', 'diagnose', 'explain']]]",10,1,10
+"['G', ['->', ['&', ['!', 'unexpectedObstacle'], ['X', 'unexpectedObstacle']], ['X', ['F', 'Explain']]]]",10,1,10
+"['G', ['->', ['&', ['!', 'problemDetected'], ['X', 'problemDetected']], ['X', ['F', 'explain']]]]",10,1,10
+"['G', ['->', ['&', ['!', 'assessment'], ['X', 'assessment']], ['X', ['X', 'provideReason']]]]",10,1,10
+"['->', 'systemDiagnosis', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]",10,1,10
+"['G', ['->', ['&', ['!', 'decisionMaking'], ['X', 'decisionMaking']], ['X', ['F', 'explain']]]]",10,1,10
+"['|', ['->', ['&', 'unexpectedBehaviour', 'detailRequested'], 'detailedExplain'], ['->', ['!', 'unexpectedBehaviour'], 'explain']]",10,1,10
+"['G', ['->', ['&', ['!', 'missioncomplete'], ['X', 'missioncomplete']], ['X', ['X', 'explain']]]]",10,1,10
+"['G', ['->', ['&', ['!', 'selfRecoveryExists'], ['X', 'selfRecoveryExists']], ['X', ['F', 'explainRecoveryStrategy']]]]",10,1,10
+"['G', ['->', ['&', ['!', 'taskCannotComplete'], ['X', 'taskCannotComplete']], ['X', 'explain']]]",9,1,9
+"['&', ['!', ['&', 'routeChange', 'infoRequest']], ['X', ['&', 'routeChange', 'infoRequest']]]",9,1,9
+"['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'verifyAction']]]",9,1,9
+"['->', ['&', ['!', 'safetyConcernDetected'], ['X', 'safetyConcernDetected']], ['X', ['X', 'justifyDecision']]]",9,1,9
+"['&', ['!', ['->', 'timeConstraints', 'changePlan']], ['X', ['->', 'timeConstraints', 'changePlan']]]",9,1,9
+"['&', ['!', ['->', 'priorities', 'changePlan']], ['X', ['->', 'priorities', 'changePlan']]]",9,1,9
+"['G', ['->', ['&', ['!', 'areaAvoided'], ['X', 'areaAvoided']], ['X', 'explain']]]",9,1,9
+"['&', ['!', ['>=', 'probComplete', 'p']], ['X', ['>=', 'probComplete', 'p']]]",9,1,9
+"['G', ['->', ['&', ['!', 'abort'], ['X', 'abort']], ['X', 'explain']]]",9,1,9
+"['->', ['&', ['!', 'unexpectedObstacle'], ['X', 'unexpectedObstacle']], ['X', ['F', 'Explain']]]",9,1,9
+"['->', ['&', ['!', 'problemDetected'], ['X', 'problemDetected']], ['X', ['F', 'explain']]]",9,1,9
+"['->', ['&', ['!', 'assessment'], ['X', 'assessment']], ['X', ['X', 'provideReason']]]",9,1,9
+"['G', ['->', ['&', ['!', 'unexpectedCondition'], ['X', 'unexpectedCondition']], ['X', 'notifyUsers']]]",9,1,9
+"['X', ['U', ['!', ['&', 'systemDiagnosis', ['X', ['!', 'systemDiagnosis']]]], 'detailed']]",9,1,9
+"['->', ['&', ['!', 'decisionMaking'], ['X', 'decisionMaking']], ['X', ['F', 'explain']]]",9,1,9
+"['G', ['->', ['&', ['!', 'pathImpossible'], ['X', 'pathImpossible']], ['X', 'returnAllOption']]]",9,1,9
+"['&', ['!', ['->', 'situationAssessment', 'lowRisk']], ['X', ['->', 'situationAssessment', 'lowRisk']]]",9,1,9
+"['G', ['->', ['&', ['!', 'notOptimal'], ['X', 'notOptimal']], ['X', 'explain']]]",9,1,9
+"['->', ['&', ['!', 'missioncomplete'], ['X', 'missioncomplete']], ['X', ['X', 'explain']]]",9,1,9
+"['->', ['&', ['!', 'selfRecoveryExists'], ['X', 'selfRecoveryExists']], ['X', ['F', 'explainRecoveryStrategy']]]",9,1,9
+"['G', ['->', ['&', ['!', 'taskAbort'], ['X', 'taskAbort']], ['X', 'explainFailSafe']]]",9,1,9
+"['&', ['&', ['->', 'explainCurrentPath', 'returnCurrentPath'], ['->', 'explainIntendedPath', 'returnIntendedPath']], 'followPath']",9,1,9
+"['G', ['->', ['&', ['!', 'timeCritical'], ['X', 'timeCritical']], ['X', 'concise']]]",9,1,9
+"['&', ['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']], ['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]]",9,1,9
+"['G', ['->', ['&', ['!', 'planDeviation'], ['X', 'planDeviation']], ['X', 'returnCurrentLocation']]]",9,1,9
+"['->', ['&', ['!', 'taskCannotComplete'], ['X', 'taskCannotComplete']], ['X', 'explain']]",8,1,8
+"['G', ['&', 'monitorHealth', ['->', ['<', 'health', 'threshold'], 'explain']]]",8,1,8
+"['->', ['&', ['!', 'areaAvoided'], ['X', 'areaAvoided']], ['X', 'explain']]",8,1,8
+"['->', ['&', ['!', 'abort'], ['X', 'abort']], ['X', 'explain']]",8,1,8
+"['->', ['&', ['!', 'unexpectedCondition'], ['X', 'unexpectedCondition']], ['X', 'notifyUsers']]",8,1,8
+"['->', ['&', ['!', 'pathImpossible'], ['X', 'pathImpossible']], ['X', 'returnAllOption']]",8,1,8
+"['->', ['&', ['!', 'notOptimal'], ['X', 'notOptimal']], ['X', 'explain']]",8,1,8
+"['G', ['&', ['->', 'explainVisited', 'returnVisited'], ['->', 'explainMeasurements', 'returnMeasurementOrigins']]]",8,1,8
+"['->', ['&', ['!', 'taskAbort'], ['X', 'taskAbort']], ['X', 'explainFailSafe']]",8,1,8
+"['->', ['&', ['!', 'timeCritical'], ['X', 'timeCritical']], ['X', 'concise']]",8,1,8
+"['->', ['&', ['!', 'planDeviation'], ['X', 'planDeviation']], ['X', 'returnCurrentLocation']]",8,1,8
+"['&', 'monitorHealth', ['->', ['<', 'health', 'threshold'], 'explain']]",7,1,7
+"['->', ['>=', 'probComplete', 'p'], ['&', 'returnUncertaintyVariables', 'explain']]",7,1,7
+"['&', ['!', ['!', 'clearance']], ['X', ['!', 'clearance']]]",7,1,7
+"['->', 'manipulationMode', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]",7,1,7
+"['&', ['->', 'explainVisited', 'returnVisited'], ['->', 'explainMeasurements', 'returnMeasurementOrigins']]",7,1,7
+"['&', ['->', 'explainCurrentPath', 'returnCurrentPath'], ['->', 'explainIntendedPath', 'returnIntendedPath']]",7,1,7
+"['->', ['&', 'routeChange', 'infoRequest'], ['X', 'provideReason']]",6,1,6
+"['G', ['->', 'pathPlanning', ['&', 'explainPath', 'justifyDecision']]]",6,1,6
+"['->', ['->', 'timeConstraints', 'changePlan'], ['X', 'explain']]",6,1,6
+"['->', ['->', 'priorities', 'changePlan'], ['X', 'explain']]",6,1,6
+"['G', ['->', 'failureDetected', ['&', 'explainOffNormal', 'failSafe']]]",6,1,6
+"['G', ['&', ['&', 'sampleDoseRate', 'avoidObstacles'], 'minimiseRadRisk']]",6,1,6
+"['->', ['!', 'clearance'], ['G', ['!', 'shareSensitiveInformation']]]",6,1,6
+"['G', ['&', 'provideHealthUpdate', ['>', 'selfRecoveryStrategyConfidence', 'acceptableThreshold']]]",6,1,6
+"['!', ['&', ['!', 'systemDiagnosis'], ['X', 'systemDiagnosis']]]",6,1,6
+"['->', ['->', 'situationAssessment', 'lowRisk'], ['F', 'detailed']]",6,1,6
+"['X', ['&', ['&', 'explainObject', 'Future(explainMaterial)'], 'Future(explainCut)']]",6,1,6
+"['&', ['!', 'taskCannotComplete'], ['X', 'taskCannotComplete']]",5,1,5
+"['->', 'pathPlanning', ['&', 'explainPath', 'justifyDecision']]",5,1,5
+"['&', ['!', 'failureDetected'], ['X', 'failureDetected']]",5,1,5
+"['->', 'failureDetected', ['&', 'diagnose', 'explain']]",5,1,5
+"['->', ['<', 'health', 'threshold'], 'explain']",5,1,5
+"['&', ['!', 'areaAvoided'], ['X', 'areaAvoided']]",5,1,5
+"['->', 'failureDetected', ['&', 'explainOffNormal', 'failSafe']]",5,1,5
+"['&', ['!', 'abort'], ['X', 'abort']]",5,1,5
+"['&', ['!', 'unexpectedObstacle'], ['X', 'unexpectedObstacle']]",5,1,5
+"['&', ['!', 'problemDetected'], ['X', 'problemDetected']]",5,1,5
+"['&', ['&', 'sampleDoseRate', 'avoidObstacles'], 'minimiseRadRisk']",5,1,5
+"['&', ['!', 'assessment'], ['X', 'assessment']]",5,1,5
+"['&', ['!', 'unexpectedCondition'], ['X', 'unexpectedCondition']]",5,1,5
+"['&', 'provideHealthUpdate', ['>', 'selfRecoveryStrategyConfidence', 'acceptableThreshold']]",5,1,5
+"['&', ['!', 'systemDiagnosis'], ['X', 'systemDiagnosis']]",5,1,5
+"['&', ['!', 'decisionMaking'], ['X', 'decisionMaking']]",5,1,5
+"['&', ['!', 'pathImpossible'], ['X', 'pathImpossible']]",5,1,5
+"['&', ['!', 'notOptimal'], ['X', 'notOptimal']]",5,1,5
+"['->', ['&', 'unexpectedBehaviour', 'detailRequested'], 'detailedExplain']",5,1,5
+"['&', ['!', 'missioncomplete'], ['X', 'missioncomplete']]",5,1,5
+"['&', ['!', 'selfRecoveryExists'], ['X', 'selfRecoveryExists']]",5,1,5
+"['&', ['!', 'taskAbort'], ['X', 'taskAbort']]",5,1,5
+"['&', ['!', 'timeCritical'], ['X', 'timeCritical']]",5,1,5
+"['->', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion'], 'explainAlternatives']",5,1,5
+"['&', ['!', 'planDeviation'], ['X', 'planDeviation']]",5,1,5
+"['X', ['&', 'routeChange', 'infoRequest']]",4,1,4
+"['!', ['&', 'routeChange', 'infoRequest']]",4,1,4
+"['G', ['->', 'pathPlanningMode', 'justifyDecision']]",4,1,4
+"['->', 'safetyConcernDetected', ['X', 'verifyAction']]",4,1,4
+"['->', 'safetyConcernDetected', ['X', 'justifyDecision']]",4,1,4
+"['F', ['&', 'robotLocation', 'taskCompletionStatus']]",4,1,4
+"['V', 'explainSuitable', ['!', 'mission']]",4,1,4
+"['X', ['&', 'diagnose', 'explain']]",4,1,4
+"['G', ['&', 'explainLocation', 'provideReason']]",4,1,4
+"['X', ['->', 'timeConstraints', 'changePlan']]",4,1,4
+"['!', ['->', 'timeConstraints', 'changePlan']]",4,1,4
+"['G', ['->', 'developer', 'produceDetailedExplanation']]",4,1,4
+"['V', 'explainHealth', ['!', 'mission']]",4,1,4
+"['X', ['->', 'priorities', 'changePlan']]",4,1,4
+"['!', ['->', 'priorities', 'changePlan']]",4,1,4
+"['X', ['>=', 'probComplete', 'p']]",4,1,4
+"['!', ['>=', 'probComplete', 'p']]",4,1,4
+"['X', ['&', 'returnUncertaintyVariables', 'explain']]",4,1,4
+"['->', 'unexpectedObstacle', ['F', 'Explain']]",4,1,4
+"['->', 'problemDetected', ['F', 'explain']]",4,1,4
+"['->', 'assessment', ['X', 'provideReason']]",4,1,4
+"['X', ['G', ['!', 'shareSensitiveInformation']]]",4,1,4
+"['->', 'decisionMaking', ['F', 'explain']]",4,1,4
+"['X', ['->', 'situationAssessment', 'lowRisk']]",4,1,4
+"['!', ['->', 'situationAssessment', 'lowRisk']]",4,1,4
+"['->', ['!', 'unexpectedBehaviour'], 'explain']",4,1,4
+"['G', ['->', 'performanceReviewMode', 'detailed']]",4,1,4
+"['->', 'missioncomplete', ['X', 'explain']]",4,1,4
+"['->', 'selfRecoveryExists', ['F', 'explainRecoveryStrategy']]",4,1,4
+"['V', 'requestPermission', ['!', 'proceed']]",4,1,4
+"['G', ['->', 'trainingMode', 'detailed']]",4,1,4
+"['V', 'explain', ['!', 'go']]",4,1,4
+"['X', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]",4,1,4
+"['!', ['<', 'probabilityTaskCompletion', 'previousProbabilityTaskCompletion']]",4,1,4
+"['G', ['&', 'calculateTaskCompletionProbability', 'explain']]",4,1,4
+"['->', 'taskCannotComplete', 'explain']",3,1,3
+"['->', 'pathPlanningMode', 'justifyDecision']",3,1,3
+"['X', ['X', 'verifyAction']]",3,1,3
+"['&', 'explainPath', 'justifyDecision']",3,1,3
+"['X', ['X', 'justifyDecision']]",3,1,3
+"['&', 'robotLocation', 'taskCompletionStatus']",3,1,3
+"['&', 'explainLocation', 'provideReason']",3,1,3
+"['<', 'health', 'threshold']",3,1,3
+"['->', 'developer', 'produceDetailedExplanation']",3,1,3
+"['->', 'areaAvoided', 'explain']",3,1,3
+"['&', 'explainOffNormal', 'failSafe']",3,1,3
+"['->', 'abort', 'explain']",3,1,3
+"['X', ['F', 'Explain']]",3,1,3
+"['&', 'sampleDoseRate', 'avoidObstacles']",3,1,3
+"['X', ['!', 'clearance']]",3,1,3
+"['!', ['!', 'clearance']]",3,1,3
+"['->', 'unexpectedCondition', 'notifyUsers']",3,1,3
+"['>', 'selfRecoveryStrategyConfidence', 'acceptableThreshold']",3,1,3
+"['->', 'pathImpossible', 'returnAllOption']",3,1,3
+"['X', ['F', 'detailed']]",3,1,3
+"['->', 'notOptimal', 'explain']",3,1,3
+"['&', 'unexpectedBehaviour', 'detailRequested']",3,1,3
+"['->', 'performanceReviewMode', 'detailed']",3,1,3
+"['->', 'explainMeasurements', 'returnMeasurementOrigins']",3,1,3
+"['->', 'explainVisited', 'returnVisited']",3,1,3
+"['X', ['F', 'explainRecoveryStrategy']]",3,1,3
+"['->', 'taskAbort', 'explainFailSafe']",3,1,3
+"['->', 'explainIntendedPath', 'returnIntendedPath']",3,1,3
+"['->', 'explainCurrentPath', 'returnCurrentPath']",3,1,3
+"['->', 'trainingMode', 'detailed']",3,1,3
+"['->', 'timeCritical', 'concise']",3,1,3
+"['->', 'planDeviation', 'returnCurrentLocation']",3,1,3
+"['&', 'calculateTaskCompletionProbability', 'explain']",3,1,3
+"['X', 'taskCannotComplete']",2,1,2
+"['!', 'taskCannotComplete']",2,1,2
+"['X', 'failureDetected']",2,1,2
+"['!', 'failureDetected']",2,1,2
+"['G', 'explainTaskProbability']",2,1,2
+"['X', 'areaAvoided']",2,1,2
+"['!', 'areaAvoided']",2,1,2
+"['X', 'abort']",2,1,2
+"['!', 'abort']",2,1,2
+"['X', 'unexpectedObstacle']",2,1,2
+"['!', 'unexpectedObstacle']",2,1,2
+"['X', 'problemDetected']",2,1,2
+"['!', 'problemDetected']",2,1,2
+"['X', 'assessment']",2,1,2
+"['!', 'assessment']",2,1,2
+"['X', 'unexpectedCondition']",2,1,2
+"['!', 'unexpectedCondition']",2,1,2
+"['X', 'notifyUsers']",2,1,2
+"['X', 'systemDiagnosis']",2,1,2
+"['X', 'decisionMaking']",2,1,2
+"['!', 'decisionMaking']",2,1,2
+"['X', 'pathImpossible']",2,1,2
+"['!', 'pathImpossible']",2,1,2
+"['X', 'returnAllOption']",2,1,2
+"['X', 'notOptimal']",2,1,2
+"['!', 'notOptimal']",2,1,2
+"['!', 'unexpectedBehaviour']",2,1,2
+"['G', 'Truthful']",2,1,2
+"['X', 'missioncomplete']",2,1,2
+"['!', 'missioncomplete']",2,1,2
+"['X', 'selfRecoveryExists']",2,1,2
+"['!', 'selfRecoveryExists']",2,1,2
+"['G', 'Verifiable']",2,1,2
+"['!', 'proceed']",2,1,2
+"['X', 'taskAbort']",2,1,2
+"['!', 'taskAbort']",2,1,2
+"['X', 'explainFailSafe']",2,1,2
+"['G', 'Factual']",2,1,2
+"['X', 'timeCritical']",2,1,2
+"['!', 'timeCritical']",2,1,2
+"['X', 'concise']",2,1,2
+"['!', 'go']",2,1,2
+"['X', 'explainAlternatives']",2,1,2
+"['X', 'planDeviation']",2,1,2
+"['!', 'planDeviation']",2,1,2
+"['X', 'returnCurrentLocation']",2,1,2

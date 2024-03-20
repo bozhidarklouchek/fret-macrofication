@@ -1,0 +1,6 @@
+serialisation,size,count,shrinking_power
+"['F', 'calculateAccuracy']",2,4,8
+"['F', 'logObject']",2,4,8
+"['F', 'generateFrameset']",2,4,8
+"['X', 'validationTest']",2,3,6
+"['!', 'validationTest']",2,3,6

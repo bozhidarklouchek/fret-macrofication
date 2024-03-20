@@ -23,15 +23,15 @@ update_subgraph_state(graphs, subgraphs)
 # Build subterm trees to build relationship graph
 subterm_trees = build_subterm_trees(subgraphs)
 
-label_mappings = build_relationship_map(subterm_trees, subgraphs)
+# Build relationship graph
+build_relationship_map(subterm_trees, subgraphs)
 
 
 # SAVE RESULT
 
 # Subgraph occurrence result sorted in a descending order
 write_subterm_count(subgraphs)
-# Subgraph occurrence result sorted in a descending order
-write_id_to_subterm_map(label_mappings)
+
 
 
 

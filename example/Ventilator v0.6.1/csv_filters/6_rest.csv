@@ -1,0 +1,199 @@
+serialisation,size,count,shrinking_power
+"['&', 'PSVMode', ['X', ['!', 'PSVMode']]]",5,136,680
+"['&', 'PCVMode', ['X', ['!', 'PCVMode']]]",5,126,630
+"['|', 'PCVMode', 'PSVMode']",3,142,426
+"['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]",5,62,310
+"['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]]",5,54,270
+"['&', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']], ['X', ['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']]]]]",19,14,266
+"['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']]",8,31,248
+"['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton'], ['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton']]]]",13,14,182
+"['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton'], ['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton']]]]",13,14,182
+"['&', ['|', 'PCVMode', 'PSVMode'], ['X', ['!', ['|', 'PCVMode', 'PSVMode']]]]",9,20,180
+"['|', ['!', ['U', ['&', ['!', 'off'], ['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]], ['&', ['!', ['&', ['!', 'StandbyMode'], ['!', 'ventilating']]], ['!', 'off']]]], ['V', ['|', ['&', ['&', ['!', 'StandbyMode'], ['!', 'ventilating']], ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]], ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]], ['&', ['!', 'StandbyMode'], ['!', 'ventilating']]]]",44,4,176
+"['|', ['!', ['U', ['&', ['!', 'buttonUnPressOr60Seconds'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]], ['&', ['!', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']], ['!', 'buttonUnPressOr60Seconds']]]], ['V', ['|', ['&', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose'], ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]], ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]], ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']]]",44,4,176
+"['|', ['!', ['U', ['&', ['!', 'buttonUnPressOr60Seconds'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]], ['&', ['!', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']], ['!', 'buttonUnPressOr60Seconds']]]], ['V', ['|', ['&', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose'], ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]], ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]], ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']]]",44,4,176
+"['|', ['&', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']], ['X', ['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']]]]], ['&', ['X', 'RM'], ['!', ['&', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']], ['X', ['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']]]]]]]]",43,4,172
+"['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton']",5,31,155
+"['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton']",5,31,155
+"['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton']",5,31,155
+"['|', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton'], ['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton']]]], ['&', ['X', ['->', 'expiratoryPauseButton', ['&', ['&', 'expiratoryPause', 'inValveClose'], 'outValveClose']]], ['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton'], ['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton']]]]]]]",37,4,148
+"['|', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton'], ['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton']]]], ['&', ['X', ['->', 'inspiratoryPauseButton', ['&', ['&', 'inspiratoryPause', 'inValveClose'], 'outValveClose']]], ['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton'], ['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton']]]]]]]",37,4,148
+"['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']",5,28,140
+"['&', 'StandbyMode', ['X', ['!', 'StandbyMode']]]",5,28,140
+"['|', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]], ['&', ['X', ['&', 'ventilating', 'PSVMode']], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]]",17,8,136
+"['&', ['&', 'PSVMode', 'RMButton'], ['X', ['!', ['&', 'PSVMode', 'RMButton']]]]",9,14,126
+"['&', ['&', 'PCVMode', 'RMButton'], ['X', ['!', ['&', 'PCVMode', 'RMButton']]]]",9,14,126
+"['&', ['&', 'PSVMode', 'expiratoryPhase'], ['X', ['!', ['&', 'PSVMode', 'expiratoryPhase']]]]",9,14,126
+"['|', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]], ['&', ['X', 'expirationPhaseStart'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]]",15,8,120
+"['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]",5,24,120
+"['|', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]], ['&', ['X', 'FailSafeMode'], ['!', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]]]]]",15,8,120
+"['|', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]], ['&', ['X', ['&', ['&', ['&', ['&', 'apnea', 'PCVMode'], ['=', 'RR', 'RR_AP']], ['=', 'P_insp', 'P_inspAP']], ['=', 'ItoE', 'ItoE_AP']]], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]]",29,4,116
+"['|', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]], ['&', ['X', ['&', ['&', ['&', 'PCVMode', ['=', 'RR', 'RR_AP']], ['=', 'P_insp', 'P_inspAP']], ['=', 'ItoE', 'ItoE_AP']]], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]]",27,4,108
+"['&', ['X', ['|', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]], ['&', ['X', ['&', 'ventilating', 'PSVMode']], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]]], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]",25,4,100
+"['&', 'PSVMode', 'RMButton']",3,31,93
+"['&', 'PCVMode', 'RMButton']",3,31,93
+"['&', 'PSVMode', 'expiratoryPhase']",3,31,93
+"['&', ['X', ['|', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]], ['&', ['X', 'expirationPhaseStart'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]]], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]",23,4,92
+"['V', ['|', ['&', ['&', ['!', 'StandbyMode'], ['!', 'ventilating']], ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]], ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]], ['&', ['!', 'StandbyMode'], ['!', 'ventilating']]]",23,4,92
+"['V', ['|', ['&', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose'], ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]], ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]], ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']]",23,4,92
+"['|', ['G', '[0,40]', ['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]], ['V', ['&', ['&', 'PSVMode', 'inspiratoryPauseButton'], ['X', ['!', ['&', 'PSVMode', 'inspiratoryPauseButton']]]], ['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]]]",23,4,92
+"['|', ['&', ['&', 'PSVMode', 'RMButton'], ['X', ['!', ['&', 'PSVMode', 'RMButton']]]], ['&', ['X', 'RM'], ['!', ['&', ['&', 'PSVMode', 'RMButton'], ['X', ['!', ['&', 'PSVMode', 'RMButton']]]]]]]",23,4,92
+"['|', ['G', '[0,40]', ['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]], ['V', ['&', ['&', 'PCVMode', 'inspiratoryPauseButton'], ['X', ['!', ['&', 'PCVMode', 'inspiratoryPauseButton']]]], ['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]]]",23,4,92
+"['&', ['X', 'RM'], ['!', ['&', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']], ['X', ['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'RMButton'], ['!', 'inspiratoryPauseButton']]]]]]]",23,4,92
+"['|', ['&', ['&', 'PCVMode', 'RMButton'], ['X', ['!', ['&', 'PCVMode', 'RMButton']]]], ['&', ['X', 'RM'], ['!', ['&', ['&', 'PCVMode', 'RMButton'], ['X', ['!', ['&', 'PCVMode', 'RMButton']]]]]]]",23,4,92
+"['&', ['X', ['->', 'expiratoryPauseButton', ['&', ['&', 'expiratoryPause', 'inValveClose'], 'outValveClose']]], ['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton'], ['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'expiratoryPauseButton']]]]]]",23,4,92
+"['&', ['X', ['->', 'inspiratoryPauseButton', ['&', ['&', 'inspiratoryPause', 'inValveClose'], 'outValveClose']]], ['!', ['&', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton'], ['X', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], 'inspiratoryPauseButton']]]]]]",23,4,92
+"['&', ['X', ['|', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]], ['&', ['X', 'FailSafeMode'], ['!', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]]]]]], ['!', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]]]]",23,4,92
+"['V', ['|', ['&', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose'], ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]], ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]], ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']]",23,4,92
+"['&', ['X', ['&', ['&', ['&', ['&', 'apnea', 'PCVMode'], ['=', 'RR', 'RR_AP']], ['=', 'P_insp', 'P_inspAP']], ['=', 'ItoE', 'ItoE_AP']]], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]",23,4,92
+"['|', ['&', ['&', 'PSVMode', 'expiratoryPhase'], ['X', ['!', ['&', 'PSVMode', 'expiratoryPhase']]]], ['&', ['X', 'patientBreathingRequest'], ['!', ['&', ['&', 'PSVMode', 'expiratoryPhase'], ['X', ['!', ['&', 'PSVMode', 'expiratoryPhase']]]]]]]",23,4,92
+"['&', ['&', 'PSVMode', 'inspiratoryPauseButton'], ['X', ['!', ['&', 'PSVMode', 'inspiratoryPauseButton']]]]",9,10,90
+"['&', ['&', 'PCVMode', 'inspiratoryPauseButton'], ['X', ['!', ['&', 'PCVMode', 'inspiratoryPauseButton']]]]",9,10,90
+"['&', ['X', ['&', 'ventilating', 'PSVMode']], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]",11,8,88
+"['&', 'expirationPhaseEnd', 'inValveClose']",3,28,84
+"['G', '[0,40]', ['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]]",7,12,84
+"['&', ['X', ['&', ['&', ['&', 'PCVMode', ['=', 'RR', 'RR_AP']], ['=', 'P_insp', 'P_inspAP']], ['=', 'ItoE', 'ItoE_AP']]], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]",21,4,84
+"['&', ['&', ['&', 'PCVMode', ['=', 'RR', 'RR_AP']], ['=', 'P_insp', 'P_inspAP']], ['=', 'ItoE', 'ItoE_AP']]",13,6,78
+"['U', ['&', ['!', 'off'], ['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]], ['&', ['!', ['&', ['!', 'StandbyMode'], ['!', 'ventilating']]], ['!', 'off']]]",19,4,76
+"['U', ['&', ['!', 'buttonUnPressOr60Seconds'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]], ['&', ['!', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']], ['!', 'buttonUnPressOr60Seconds']]]",19,4,76
+"['|', ['G', '[0,40]', ['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]], ['V', ['&', 'inspiratoryPauseButton', ['X', ['!', 'inspiratoryPauseButton']]], ['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]]]",19,4,76
+"['U', ['&', ['!', 'buttonUnPressOr60Seconds'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]], ['&', ['!', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']], ['!', 'buttonUnPressOr60Seconds']]]",19,4,76
+"['&', ['X', 'expirationPhaseStart'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]",9,8,72
+"['&', ['!', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose']], ['!', 'buttonUnPressOr60Seconds']]",9,8,72
+"['&', 'inValveClose', 'outValveClose']",3,24,72
+"['&', ['!', 'PSVModeSelected'], ['&', ['X', 'PSVModeSelected'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]]",12,6,72
+"['|', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]], ['&', ['X', ['!', ['&', 'PCVInspTimeEnd', 'PSVMode']]], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]]",18,4,72
+"['&', ['X', 'FailSafeMode'], ['!', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]]]]",9,8,72
+"['|', ['&', 'RM', ['X', ['!', 'RM']]], ['&', ['X', ['&', ['!', 'RM'], 'expirationPhaseStart']], ['!', ['&', 'RM', ['X', ['!', 'RM']]]]]]",18,4,72
+"['&', 'RM', ['X', ['!', 'RM']]]",5,14,70
+"['&', 'PSVMode', 'inspiratoryPauseButton']",3,23,69
+"['&', 'PCVMode', 'inspiratoryPauseButton']",3,23,69
+"['|', ['&', ['&', ['!', 'StandbyMode'], ['!', 'ventilating']], ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]], ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]",17,4,68
+"['|', ['&', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose'], ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]], ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]",17,4,68
+"['|', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]], ['&', ['X', ['&', 'OutOfServiceWarning', 'FailSafeMode']], ['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]]]",17,4,68
+"['|', ['&', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose'], ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]], ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]",17,4,68
+"['&', ['!', ['>=', 'breathingTime', 'apneaLagTime']], ['&', ['X', ['>=', 'breathingTime', 'apneaLagTime']], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]]",16,4,64
+"['&', ['!', 'StandbyMode'], ['!', 'ventilating']]",5,12,60
+"['|', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]], ['&', ['X', 'inspiratoryPhaseStart'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]]",15,4,60
+"['|', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]], ['&', ['X', 'patientBreathingRequest'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]]",15,4,60
+"['V', ['&', ['&', 'PSVMode', 'inspiratoryPauseButton'], ['X', ['!', ['&', 'PSVMode', 'inspiratoryPauseButton']]]], ['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]]",15,4,60
+"['U', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], ['X', ['!', ['|', 'PCVMode', 'PSVMode']]]]], ['|', 'inspiratoryPause', ['!', 'inspiratoryPauseButton']]]",15,4,60
+"['|', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]], ['&', ['X', 'StandbyMode'], ['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]]]",15,4,60
+"['|', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]], ['&', ['X', 'SelfTestMode'], ['!', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]]]]]",15,4,60
+"['V', ['&', ['&', 'PCVMode', 'inspiratoryPauseButton'], ['X', ['!', ['&', 'PCVMode', 'inspiratoryPauseButton']]]], ['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]]",15,4,60
+"['U', ['!', ['&', ['|', 'PCVMode', 'PSVMode'], ['X', ['!', ['|', 'PCVMode', 'PSVMode']]]]], ['|', 'expiratoryPause', ['!', 'expiratoryPauseButton']]]",15,4,60
+"['|', ['&', 'StandbyMode', ['X', ['!', 'StandbyMode']]], ['&', ['X', 'PSVMode'], ['!', ['&', 'StandbyMode', ['X', ['!', 'StandbyMode']]]]]]",15,4,60
+"['|', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]], ['&', ['X', 'StandbyMode'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]]",15,4,60
+"['|', ['&', 'StandbyMode', ['X', ['!', 'StandbyMode']]], ['&', ['X', 'PCVMode'], ['!', ['&', 'StandbyMode', ['X', ['!', 'StandbyMode']]]]]]",15,4,60
+"['|', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]], ['&', ['X', 'apnea'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]]",15,4,60
+"['|', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]], ['&', ['X', 'RM'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]]",15,4,60
+"['|', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]], ['&', ['X', 'breathingCycleStart'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]]",15,4,60
+"['&', ['&', ['&', ['&', 'apnea', 'PCVMode'], ['=', 'RR', 'RR_AP']], ['=', 'P_insp', 'P_inspAP']], ['=', 'ItoE', 'ItoE_AP']]",15,4,60
+"['|', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]], ['&', ['X', 'StandbyMode'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]]",15,4,60
+"['|', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]], ['&', ['X', 'inspiratoryPhaseStart'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]]",15,4,60
+"['&', ['!', 'SelfTestMode'], ['X', 'SelfTestMode']]",5,11,55
+"['&', ['X', 'PSVModeSelected'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]",9,6,54
+"['&', ['&', 'PCVMode', ['=', 'RR', 'RR_AP']], ['=', 'P_insp', 'P_inspAP']]",9,6,54
+"['&', ['X', 'RM'], ['!', ['&', ['&', 'PSVMode', 'RMButton'], ['X', ['!', ['&', 'PSVMode', 'RMButton']]]]]]",13,4,52
+"['&', ['X', 'RM'], ['!', ['&', ['&', 'PCVMode', 'RMButton'], ['X', ['!', ['&', 'PCVMode', 'RMButton']]]]]]",13,4,52
+"['&', ['X', 'patientBreathingRequest'], ['!', ['&', ['&', 'PSVMode', 'expiratoryPhase'], ['X', ['!', ['&', 'PSVMode', 'expiratoryPhase']]]]]]",13,4,52
+"['&', ['!', 'PSVMode'], ['X', 'PSVMode']]",5,10,50
+"['&', 'inspiratoryPauseButton', ['X', ['!', 'inspiratoryPauseButton']]]",5,10,50
+"['&', ['&', 'expiratoryPauseButton', ['<=', 'expClock', 'apneaLagTime']], ['!', 'patientBreathingRequest']]",8,6,48
+"['&', ['X', ['!', ['&', 'PCVInspTimeEnd', 'PSVMode']]], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]",12,4,48
+"['&', ['X', ['&', ['!', 'RM'], 'expirationPhaseStart']], ['!', ['&', 'RM', ['X', ['!', 'RM']]]]]",12,4,48
+"['&', ['!', 'StartUpMode'], ['X', 'StartUpMode']]",5,9,45
+"['&', ['!', 'PCVMode'], ['X', 'PCVMode']]",5,9,45
+"['&', ['&', ['!', 'StandbyMode'], ['!', 'ventilating']], ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]",11,4,44
+"['&', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose'], ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]",11,4,44
+"['&', ['X', ['>=', 'breathingTime', 'apneaLagTime']], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]",11,4,44
+"['&', ['X', ['&', 'OutOfServiceWarning', 'FailSafeMode']], ['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]]",11,4,44
+"['V', ['&', 'inspiratoryPauseButton', ['X', ['!', 'inspiratoryPauseButton']]], ['->', 'inspiratoryPauseButton', ['&', 'inValveClose', 'outValveClose']]]",11,4,44
+"['&', ['&', ['&', 'expirationPhaseEnd', 'inValveClose'], 'outValveClose'], ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]",11,4,44
+"['&', ['&', ['&', 'apnea', 'PCVMode'], ['=', 'RR', 'RR_AP']], ['=', 'P_insp', 'P_inspAP']]",11,4,44
+"['&', ['>=', 'pressureSensorRetries', '5'], ['|', 'pressureSensorConnFailure', 'pressureSensorError']]",7,6,42
+"['&', ['>=', 'ADCRetries', '5'], ['|', 'ADCConnFailure', 'ADCError']]",7,6,42
+"['&', ['!', 'RM'], 'expirationPhaseStart']",4,10,40
+"['U', ['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]], ['|', 'selfTestPassed', 'selfTestFailed']]",10,4,40
+"['&', ['!', 'off'], ['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]]",9,4,36
+"['&', ['!', ['&', ['!', 'StandbyMode'], ['!', 'ventilating']]], ['!', 'off']]",9,4,36
+"['&', ['!', 'buttonUnPressOr60Seconds'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]",9,4,36
+"['&', ['X', 'inspiratoryPhaseStart'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]",9,4,36
+"['&', ['X', 'patientBreathingRequest'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]",9,4,36
+"['|', ['|', ['|', ['|', 'StartUpMode', 'SelfTestMode'], 'StandbyMode'], 'PCVMode'], 'PSVMode']",9,4,36
+"['&', ['X', 'StandbyMode'], ['!', ['&', 'SelfTestMode', ['X', ['!', 'SelfTestMode']]]]]",9,4,36
+"['&', ['X', 'SelfTestMode'], ['!', ['&', 'StartUpMode', ['X', ['!', 'StartUpMode']]]]]",9,4,36
+"['&', ['X', 'PSVMode'], ['!', ['&', 'StandbyMode', ['X', ['!', 'StandbyMode']]]]]",9,4,36
+"['&', ['X', 'StandbyMode'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]",9,4,36
+"['&', ['X', 'PCVMode'], ['!', ['&', 'StandbyMode', ['X', ['!', 'StandbyMode']]]]]",9,4,36
+"['>=', 'breathingTime', 'apneaLagTime']",3,12,36
+"['&', ['X', 'apnea'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]",9,4,36
+"['&', ['X', 'RM'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]",9,4,36
+"['&', ['X', 'breathingCycleStart'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]",9,4,36
+"['&', ['&', 'expiratoryPauseButton', 'ExpiratoryPhaseEnd'], ['!', 'patientBreathingRequest']]",6,6,36
+"['&', ['!', 'buttonUnPressOr60Seconds'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]",9,4,36
+"['&', ['X', 'StandbyMode'], ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]]]",9,4,36
+"['&', ['X', 'inspiratoryPhaseStart'], ['!', ['&', 'PSVMode', ['X', ['!', 'PSVMode']]]]]",9,4,36
+"['=', 'P_insp', 'P_inspAP']",3,11,33
+"['U', ['!', ['&', 'PCVMode', ['X', ['!', 'PCVMode']]]], 'confirmPSVParameters']",8,4,32
+"['<', 'V_E', ['*', 'ExpiratoryTriggerSensitivity', 'PeakV_E']]",5,6,30
+"['&', 'expiratoryPauseButton', ['<=', 'expClock', 'apneaLagTime']]",5,6,30
+"['=', 'ItoE', 'ItoE_AP']",3,10,30
+"['&', 'PCVMode', ['=', 'RR', 'RR_AP']]",5,6,30
+"['=', 'RR', 'RR_AP']",3,10,30
+"['&', 'powerButton', ['&', ['&', ['&', 'breathingCircuitConnected', ['!', 'patientConnected']], 'airSupplyConnected'], 'powerConnected']]",10,3,30
+"['|', ['|', ['|', 'StartUpMode', 'SelfTestMode'], 'StandbyMode'], 'PCVMode']",7,4,28
+"['|', ['>=', 'P_insp', 'MaxP_insp'], ['>=', 'inspClock', 'inspiratoryTime']]",7,4,28
+"['->', 'expiratoryPauseButton', ['&', ['&', 'expiratoryPause', 'inValveClose'], 'outValveClose']]",7,4,28
+"['->', 'inspiratoryPauseButton', ['&', ['&', 'inspiratoryPause', 'inValveClose'], 'outValveClose']]",7,4,28
+"['|', 'initDone', ['&', ['&', 'initFail', 'OutOfServiceWarning'], 'FailSafeMode']]",7,4,28
+"['&', ['&', 'apnea', 'PCVMode'], ['=', 'RR', 'RR_AP']]",7,4,28
+"['&', ['!', ['|', 'PCVMode', 'PSVMode']], ['X', ['|', 'PCVMode', 'PSVMode']]]",9,3,27
+"['&', 'expiratoryPauseButton', 'ExpiratoryPhaseEnd']",3,9,27
+"['&', ['&', ['&', 'breathingCircuitConnected', ['!', 'patientConnected']], 'airSupplyConnected'], 'powerConnected']",8,3,24
+"['&', 'ventilating', 'PSVMode']",3,8,24
+"['&', ['!', 'expiratoryPause'], 'inspiratoryPhaseStart']",4,6,24
+"['&', ['!', 'inspiratoryPause'], 'expirationPhaseStart']",4,6,24
+"['|', ['>', 'param_V', 'paramMax_V'], ['<', 'param_V', 'paramMin_V']]",7,3,21
+"['|', ['|', 'StartUpMode', 'SelfTestMode'], 'StandbyMode']",5,4,20
+"['&', ['&', 'expiratoryPause', 'inValveClose'], 'outValveClose']",5,4,20
+"['&', ['&', 'inspiratoryPause', 'inValveClose'], 'outValveClose']",5,4,20
+"['&', ['&', 'initFail', 'OutOfServiceWarning'], 'FailSafeMode']",5,4,20
+"['*', 'ExpiratoryTriggerSensitivity', 'PeakV_E']",3,6,18
+"['<=', 'expClock', 'apneaLagTime']",3,6,18
+"['>', 'dropPAW', 'ITS_PCV']",3,6,18
+"['|', 'selfTestPassed', 'GUIResumeRequest']",3,6,18
+"['<', 'Fl1', 'ExpiratoryTriggerSensitivity']",3,6,18
+"['>', 'P_insp', 'MaxP_insp']",3,6,18
+"['&', ['&', 'breathingCircuitConnected', ['!', 'patientConnected']], 'airSupplyConnected']",6,3,18
+"['<', 'inspiratoryPressure', 'InhaleTriggerSensitivityPSV']",3,6,18
+"['>=', 'pressureSensorRetries', '5']",3,6,18
+"['|', 'pressureSensorConnFailure', 'pressureSensorError']",3,6,18
+"['>=', 'ADCRetries', '5']",3,6,18
+"['|', 'ADCConnFailure', 'ADCError']",3,6,18
+"['>=', 'expClock', 'apneaLagTime']",3,6,18
+"['>', 'dropPAW', 'ITS_PSV']",3,6,18
+"['&', 'inspiratoryPhaseEnd', 'PSVModeSelected']",3,6,18
+"['|', 'inspiratoryPause', ['!', 'inspiratoryPauseButton']]",4,4,16
+"['|', 'expiratoryPause', ['!', 'expiratoryPauseButton']]",4,4,16
+"['|', 'StartUpMode', 'SelfTestMode']",3,5,15
+"['&', 'FailSafeMode', ['X', ['!', 'FailSafeMode']]]",5,3,15
+"['&', 'PCVMode', 'apnea']",3,5,15
+"['>=', 'P_insp', 'MaxP_insp']",3,4,12
+"['>=', 'inspClock', 'inspiratoryTime']",3,4,12
+"['&', 'expiratoryPause', 'inValveClose']",3,4,12
+"['&', 'inspiratoryPause', 'inValveClose']",3,4,12
+"['|', 'selfTestPassed', 'selfTestFailed']",3,4,12
+"['&', 'inspiratoryPhaseEnd', 'expirationPhaseStart']",3,4,12
+"['|', 'GUIFailue', ['!', 'GUIConnected']]",4,3,12
+"['&', 'initFail', 'OutOfServiceWarning']",3,4,12
+"['&', 'PCVInspTimeEnd', 'PSVMode']",3,4,12
+"['&', 'breathingCircuitConnected', ['!', 'patientConnected']]",4,3,12
+"['&', 'OutOfServiceWarning', 'FailSafeMode']",3,4,12
+"['&', 'powerOff', ['!', 'powerButton']]",4,3,12
+"['&', 'inValveClose', 'outValveOpen']",3,3,9
+"['>', 'param_V', 'paramMax_V']",3,3,9
+"['<', 'param_V', 'paramMin_V']",3,3,9
+"['<', 'inspiratoryPressure', 'InhaleTriggerSensitivityPCV']",3,3,9
+"['+', '1', 'ItoE_PCV']",3,3,9
+"['&', 'leakCompensationEnable', 'MinPEEPAlarm']",3,3,9

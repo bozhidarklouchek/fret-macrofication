@@ -1,0 +1,15 @@
+serialisation,size,count,shrinking_power
+"['&', ['!', 'parallelGuidanceRequested'], ['X', 'parallelGuidanceRequested']]",5,2,10
+"['F', ['->', 'checkGPS', 'parallelGuidanceMode']]",4,2,8
+"['F', ['->', 'authentication', 'communication']]",4,2,8
+"['F', ['->', 'stop', 'ManualMode']]",4,2,8
+"['F', ['->', 'checkIMUConnection', 'ParallelGuidanceMode']]",4,2,8
+"['->', 'checkGPS', 'parallelGuidanceMode']",3,2,6
+"['->', 'authentication', 'communication']",3,2,6
+"['X', ['F', 'dropRequest']]",3,2,6
+"['->', 'stop', 'ManualMode']",3,2,6
+"['X', ['F', 'stop']]",3,2,6
+"['->', 'checkIMUConnection', 'ParallelGuidanceMode']",3,2,6
+"['F', 'rcDisconnectedWarning']",2,2,4
+"['X', 'parallelGuidanceRequested']",2,2,4
+"['!', 'parallelGuidanceRequested']",2,2,4
